@@ -3,20 +3,19 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using NHSUK.FrontEndLibrary.TagHelpers.Constants;
-using NHSUK.FrontEndLibrary.TagHelpers.Tags.ContentList;
+using NHSUK.FrontEndLibrary.TagHelpers.Tags.NavAZ;
 using Xunit;
 
 namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
 {
-  public class NhsContentListTagHelperTests
+  public class NhsNavAzTagHelperTests
   {
     private readonly TagHelperOutput _tagHelperOutput;
     private readonly TagHelperContext _tagHelperContext;
-    private readonly NhsContentListTagHelper _tagHelper;
-
-    public NhsContentListTagHelperTests()
+    private readonly NhsNavAzTagHelper _tagHelper;
+    public NhsNavAzTagHelperTests()
     {
-       _tagHelper = new NhsContentListTagHelper();
+      _tagHelper = new NhsNavAzTagHelper();
       _tagHelperContext = new TagHelperContext(
         new TagHelperAttributeList(),
         new Dictionary<object, object>(),
@@ -28,29 +27,29 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
            var tagHelperContent = new DefaultTagHelperContent();
            return Task.FromResult<TagHelperContent>(tagHelperContent);
          });
-     }
+
+    }
 
     [Fact]
     public async void ProcessAsync_Should_Set_TagName()
     {
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-
       Assert.Equal(HtmlElements.Nav, _tagHelperOutput.TagName);
     }
 
-    [Fact]
-    public async void ProcessAsync_Should_Set_ClassAttribute()
+    [Theory]
+    [InlineData(HtmlAttributes.ClassAttribute)]
+    [InlineData(HtmlAttributes.IdAttribute)]
+    public async void ProcessAsync_Should_Set_Attribute(string attribute)
     {
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-
-      Assert.Equal(CssClasses.NhsUkContentList, _tagHelperOutput.Attributes[HtmlAttributes.ClassAttribute].Value);
+      Assert.Equal(CssClasses.NhsUkNavAz, _tagHelperOutput.Attributes[attribute].Value);
     }
 
     [Fact]
     public async void ProcessAsync_Should_Set_RoleAttribute()
     {
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-
       Assert.Equal(HtmlAttributes.AttributeValues.Navigation, _tagHelperOutput.Attributes[HtmlAttributes.Role].Value);
     }
 
@@ -58,32 +57,30 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
     public async void ProcessAsync_Should_Set_AriaLabelAttribute()
     {
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-
-      Assert.Equal("Pages in this guide", _tagHelperOutput.Attributes[HtmlAttributes.AriaLabelAttribute].Value);
+      Assert.Equal("A to Z Navigation", _tagHelperOutput.Attributes[HtmlAttributes.AriaLabelAttribute].Value);
     }
 
     [Fact]
     public async void ProcessAsync_Should_Set_TagMode()
     {
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-
       Assert.Equal(TagMode.StartTagAndEndTag, _tagHelperOutput.TagMode);
     }
 
     [Fact]
     public async void ProcessAsync_Should_Set_PreContent()
     {
+      var expected = "<ol class=\"nhsuk-nav-a-z__list\" role=\"list\">";
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-
-      Assert.Equal("<h2 class=\"nhsuk-u-visually-hidden\">Contents</h2>", _tagHelperOutput.PreContent.GetContent());
+      Assert.Equal(expected, _tagHelperOutput.PreContent.GetContent());
     }
 
     [Fact]
-    public async void ProcessAsync_Should_Set_Content()
+    public async void ProcessAsync_Should_Set_PostContent()
     {
+      var expected = "</ol>";
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-
-      Assert.Equal("<ol class=\"nhsuk-contents-list__list\"></ol>", _tagHelperOutput.Content.GetContent());
+      Assert.Equal(expected, _tagHelperOutput.PostContent.GetContent());
     }
 
   }

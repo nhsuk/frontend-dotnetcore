@@ -2,6 +2,8 @@
 {
   public static class TagHelperNames
   {
+    public const string NhsNavAzTag="nhs-nav-a-z";
+    public const string NhsNavAzItemTag="nhs-nav-a-z-item";
     public const string NhsListPanelTag="nhs-list-panel";
     public const string NhsListPanelItemTag="nhs-list-panel-item";
     public const string NhsInsetTextTag="nhs-inset-text";

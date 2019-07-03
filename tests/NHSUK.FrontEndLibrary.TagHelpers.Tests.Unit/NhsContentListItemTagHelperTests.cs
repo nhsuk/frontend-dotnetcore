@@ -7,7 +7,7 @@ using NHSUK.FrontEndLibrary.TagHelpers.Constants;
 using NHSUK.FrontEndLibrary.TagHelpers.Tags.ContentList;
 using Xunit;
 
-namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit.TagHelpers
+namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
 {
   public class NhsContentListItemTagHelperTests
   {

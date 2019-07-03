@@ -2,6 +2,8 @@
 {
   public static class CssClasses
   {
+    public const string NhsUkNavAz= "nhsuk-nav-a-z";
+    public const string NhsUkNavAzItem= "nhsuk-nav-a-z__item";
     public const string NhsUkPanelItemLink= "nhsuk-list-panel__link";
     public const string NhsUkListPanelItem= "nhsuk-list-panel__item";
     public const string NhsUkListPanel= "nhsuk-list-panel";
