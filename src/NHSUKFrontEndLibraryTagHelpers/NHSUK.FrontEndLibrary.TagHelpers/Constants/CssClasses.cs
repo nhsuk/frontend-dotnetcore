@@ -2,6 +2,7 @@
 {
   public static class CssClasses
   {
+    public const string NhsUkPagination= "nhsuk-pagination";
     public const string NhsUkNavAz= "nhsuk-nav-a-z";
     public const string NhsUkNavAzItem= "nhsuk-nav-a-z__item";
     public const string NhsUkPanelItemLink= "nhsuk-list-panel__link";

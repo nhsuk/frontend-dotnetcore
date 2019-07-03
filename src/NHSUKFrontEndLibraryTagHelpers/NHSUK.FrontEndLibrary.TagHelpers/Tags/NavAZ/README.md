@@ -133,7 +133,6 @@ The nav a-z taghelper takes the following attributes:
 
 | Name                  | Type     | Required  | Description  |
 | ----------------------|----------|-----------|--------------|
-| **items**             | array    | Yes       | Array of navigation items. |
-| **items.[].label**    | string   | Yes       | The label of the item in the navigation. |
-| **items.[].disable**  | boolean  | No        | If set to true, then the navigation item will not be within an anchor element. |
+| **nav-a-z-item**             | Taghelper    | Yes       | taghelper representing a navigation item. |
+| **nav-a-z-item.disabled**  | boolean  | No        | If set to true, then the navigation item will not be within an anchor element. |
 | **classes**           | string   | No        | Optional additional classes to add to the nav a-z. Separate each class with a space. |
