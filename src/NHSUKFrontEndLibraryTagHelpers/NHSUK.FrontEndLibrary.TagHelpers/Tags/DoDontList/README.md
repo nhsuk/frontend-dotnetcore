@@ -7,7 +7,7 @@ Find out more about the do and don't list component and when to use it in the [N
 
 ## Quick start example
 
-[Preview the do and don't list component]()
+[Preview the do and don't list component](https://dotnetcorefelpoc.azurewebsites.net/components/do-dont-list)
 
 ### HTML markup
 

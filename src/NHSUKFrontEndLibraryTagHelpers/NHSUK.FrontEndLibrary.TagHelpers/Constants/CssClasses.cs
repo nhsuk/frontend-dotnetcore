@@ -2,10 +2,14 @@
 {
   public static class CssClasses
   {
+    public const string NhsUkPanelGroup= "nhsuk-grid-row nhsuk-panel-group";
+    public const string NhsUkPanel= "nhsuk-panel";
+    public const string NhsUkPanelGrey= NhsUkPanel + " nhsuk-panel--grey";
+    public const string NhsUkPanelLabel= "nhsuk-panel-with-label";
     public const string NhsUkPagination= "nhsuk-pagination";
     public const string NhsUkNavAz= "nhsuk-nav-a-z";
     public const string NhsUkNavAzItem= "nhsuk-nav-a-z__item";
-    public const string NhsUkPanelItemLink= "nhsuk-list-panel__link";
+    public const string NhsUkListPanelItemLink= "nhsuk-list-panel__link";
     public const string NhsUkListPanelItem= "nhsuk-list-panel__item";
     public const string NhsUkListPanel= "nhsuk-list-panel";
     public const string NhsUkInsetText= "nhsuk-inset-text";

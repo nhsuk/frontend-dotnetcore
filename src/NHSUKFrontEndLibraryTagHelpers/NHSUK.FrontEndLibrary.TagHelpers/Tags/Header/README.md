@@ -15,7 +15,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ### Header
 
-[Preview the header component]()
+[Preview the header component](https://dotnetcorefelpoc.azurewebsites.net/components/header)
 
 #### HTML markup
 
@@ -146,7 +146,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ### Header with navigation
 
-[Preview the header with navigation component]()
+[Preview the header with navigation component](https://dotnetcorefelpoc.azurewebsites.net/components/header-navigation)
 
 #### HTML markup
 
@@ -249,7 +249,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ### Header with search
 
-[Preview the header with search component]()
+[Preview the header with search component](https://dotnetcorefelpoc.azurewebsites.net/components/header-search)
 
 #### HTML markup
 
@@ -309,7 +309,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ### Header with logo
 
-[Preview the header with logo component]()
+[Preview the header with logo component](https://dotnetcorefelpoc.azurewebsites.net/components/header-logo)
 
 #### HTML markup
 
@@ -340,7 +340,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ### Header with logo (transactional header)
 
-[Preview the header with logo (transactional header) component]()
+[Preview the header with logo (transactional header) component](https://dotnetcorefelpoc.azurewebsites.net/components/header-transactional)
 
 #### HTML markup
 
@@ -371,7 +371,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ### Header transactional with service name
 
-[Preview the header transactional with service name component]()
+[Preview the header transactional with service name component](https://dotnetcorefelpoc.azurewebsites.net/components/header-transactional-service-name)
 
 #### HTML markup
 
@@ -405,7 +405,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ### Header transactional with a long service name
 
-[Preview the header transactional with a long service name component]()
+[Preview the header transactional with a long service name component](https://dotnetcorefelpoc.azurewebsites.net/components/header-transactional-long-service-name)
 
 #### HTML markup
 
@@ -439,7 +439,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ### Header with a service name and search
 
-[Preview the header with a service name and search component]()
+[Preview the header with a service name and search component](https://dotnetcorefelpoc.azurewebsites.net/components/header-service-name)
 
 #### HTML markup
 

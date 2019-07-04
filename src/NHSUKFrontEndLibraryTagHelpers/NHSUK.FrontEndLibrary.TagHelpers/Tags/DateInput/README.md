@@ -12,7 +12,7 @@ Note: The `pattern` attribute is not valid HTML for inputs where the type attrib
 
 ### Date input
 
-[Preview the date input component]()
+[Preview the date input component](https://dotnetcorefelpoc.azurewebsites.net/components/date-input)
 
 #### HTML markup
 
@@ -94,7 +94,7 @@ Note: The `pattern` attribute is not valid HTML for inputs where the type attrib
 
 ### Date input with autocomplete attribute
 
-[Preview the date input with autocomplete attribute component]()
+[Preview the date input with autocomplete attribute component](https://dotnetcorefelpoc.azurewebsites.net/components/date-input-autocomplete)
 
 #### Guidance
 
@@ -177,7 +177,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ### Date input with errors
 
-[Preview the date input with errors component]()
+[Preview the date input with errors component](https://dotnetcorefelpoc.azurewebsites.net/components/date-input-mutiple-errors)
 
 #### HTML markup
 
@@ -262,7 +262,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ### Date input with error on single input
 
-[Preview the date input with error on single input component]()
+[Preview the date input with error on single input component](https://dotnetcorefelpoc.azurewebsites.net/components/date-input-error)
 
 #### HTML markup
 

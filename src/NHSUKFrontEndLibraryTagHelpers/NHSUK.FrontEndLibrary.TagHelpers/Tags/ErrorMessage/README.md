@@ -7,7 +7,7 @@ Find out more about the error message component and when to use it in the [NHS d
 
 ## Quick start example
 
-[Preview the error message component]()
+[Preview the error message component](https://dotnetcorefelpoc.azurewebsites.net/components/error-message)
 
 ### HTML markup
 

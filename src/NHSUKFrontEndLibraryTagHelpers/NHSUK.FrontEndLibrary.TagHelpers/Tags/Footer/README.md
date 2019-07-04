@@ -7,7 +7,7 @@ Find out more about the footer component and when to use it in the [NHS digital 
 
 ## Quick start example
 
-[Preview the footer component]()
+[Preview the footer component](https://dotnetcorefelpoc.azurewebsites.net/components/footer)
 
 ### HTML markup
 
@@ -42,7 +42,7 @@ Find out more about the footer component and when to use it in the [NHS digital 
 ```
 ### Footer with list columns
 
-[Preview the footer with list columns component](l)
+[Preview the footer with list columns component](https://dotnetcorefelpoc.azurewebsites.net/components/footer-columns)
 
 #### HTML markup
 

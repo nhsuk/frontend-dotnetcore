@@ -10,7 +10,7 @@ Find out more about the fieldset component and when to use it in the [NHS digita
 
 ### Fieldset
 
-[Preview the fieldset component]()
+[Preview the fieldset component](https://dotnetcorefelpoc.azurewebsites.net/components/fieldset)
 
 #### HTML markup
 
@@ -34,7 +34,7 @@ Find out more about the fieldset component and when to use it in the [NHS digita
 
 ### Fieldset as page heading
 
-[Preview the fieldset as page heading component]()
+[Preview the fieldset as page heading component](https://dotnetcorefelpoc.azurewebsites.net/components/fieldset-page-heading)
 
 #### HTML markup
 
@@ -62,7 +62,7 @@ Find out more about the fieldset component and when to use it in the [NHS digita
 
 ### Fieldset with input fields
 
-[Preview the fieldset component with input fields]()
+[Preview the fieldset component with input fields](https://dotnetcorefelpoc.azurewebsites.net/components/fieldset-with-inputs)
 
 
 #### HTML markup

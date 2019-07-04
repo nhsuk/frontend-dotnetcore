@@ -5,6 +5,7 @@ using NHSUK.FrontEndLibrary.TagHelpers.Constants;
 namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.NavAZ
 {
   [HtmlTargetElement(TagHelperNames.NhsNavAzTag)]
+  [RestrictChildren(TagHelperNames.NhsNavAzItemTag)]
   public class NhsNavAzTagHelper : NhsBaseTagHelper
   {
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)

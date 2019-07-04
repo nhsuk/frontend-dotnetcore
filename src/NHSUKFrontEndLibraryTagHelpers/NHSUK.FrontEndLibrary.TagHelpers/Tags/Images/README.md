@@ -8,7 +8,7 @@ Find out more about the images component and when to use it in the [NHS digital 
 
 ## Quick start example
 
-[Preview the images component]()
+[Preview the images component](https://dotnetcorefelpoc.azurewebsites.net/components/images)
 
 ### HTML markup
 

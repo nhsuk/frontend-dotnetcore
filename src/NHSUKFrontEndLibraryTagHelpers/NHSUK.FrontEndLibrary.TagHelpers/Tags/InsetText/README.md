@@ -8,7 +8,7 @@ Find out more about the inset text component and when to use it in the [NHS digi
 
 ## Quick start example
 
-[Preview the inset text component]()
+[Preview the inset text component](https://dotnetcorefelpoc.azurewebsites.net/components/inset-text)
 
 ### HTML markup
 

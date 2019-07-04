@@ -8,7 +8,7 @@ Find out more about the action link component and when to use it in the [NHS dig
 
 ## Quick start example
 
-[Preview the action link component]()
+[Preview the action link component](https://dotnetcorefelpoc.azurewebsites.net/components/action-link)
 
 ### HTML markup
 

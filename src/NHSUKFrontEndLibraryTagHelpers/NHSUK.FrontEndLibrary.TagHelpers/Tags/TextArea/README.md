@@ -10,7 +10,7 @@ Find out more about the textarea component and when to use it in the [NHS digita
 
 ### Textarea
 
-[Preview the textarea component]()
+[Preview the textarea component](https://dotnetcorefelpoc.azurewebsites.net/components/textarea)
 
 #### HTML markup
 
@@ -40,7 +40,7 @@ Find out more about the textarea component and when to use it in the [NHS digita
 
 ### Textarea with autocomplete attribute
 
-[Preview the textarea with autocomplete attribute component]()
+[Preview the textarea with autocomplete attribute component](https://dotnetcorefelpoc.azurewebsites.net/components/textarea-autocomplete)
 
 #### Guidance
 
@@ -69,7 +69,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ### Textarea with error message
 
-[Preview the textarea with error message component]()
+[Preview the textarea with error message component](https://dotnetcorefelpoc.azurewebsites.net/components/textarea-error)
 
 #### HTML markup
 

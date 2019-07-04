@@ -8,7 +8,7 @@ Find out more about the contents list component and when to use it in the [NHS d
 
 ## Quick start example
 
-[Preview the contents list component]()
+[Preview the contents list component](https://dotnetcorefelpoc.azurewebsites.net/components/content-list)
 
 ### HTML markup
 

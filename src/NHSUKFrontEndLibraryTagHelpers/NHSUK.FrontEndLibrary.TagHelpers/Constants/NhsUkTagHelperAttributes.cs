@@ -2,6 +2,7 @@
 {
   public static class NhsUkTagHelperAttributes
   {
+    public const string PanelType="nhs-panel-type";
     public const string PreviousUrl="previous-url";
     public const string NextUrl = "next-url";
     public const string PreviousLinkText = "previous-link-text";

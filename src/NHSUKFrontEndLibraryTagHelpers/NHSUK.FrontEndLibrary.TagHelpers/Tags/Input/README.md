@@ -10,7 +10,7 @@ Find out more about the input component and when to use it in the [NHS digital s
 
 ### Input
 
-[Preview the input component]()
+[Preview the input component](https://dotnetcorefelpoc.azurewebsites.net/components/input)
 
 #### HTML markup
 
@@ -35,7 +35,7 @@ Find out more about the input component and when to use it in the [NHS digital s
 
 ### Input with autocomplete attribute
 
-[Preview the input with autocomplete attribute component]()
+[Preview the input with autocomplete attribute component](https://dotnetcorefelpoc.azurewebsites.net/components/input-autocomplete)
 
 #### Guidance
 
@@ -62,7 +62,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ### Input with hint text
 
-[Preview the input with hint text component]()
+[Preview the input with hint text component](https://dotnetcorefelpoc.azurewebsites.net/components/input-with-hint)
 
 #### HTML markup
 
@@ -91,7 +91,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ### Input with error message
 
-[Preview the input with error message component](https://nhsuk.github.io/nhsuk-frontend/components/input/error.html)
+[Preview the input with error message component](https://dotnetcorefelpoc.azurewebsites.net/components/input-with-error)
 
 #### HTML markup
 
@@ -124,7 +124,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ### Input with width modifier
 
-[Preview the input with width modifier component](https://nhsuk.github.io/nhsuk-frontend/components/input/custom-width.html)
+[Preview the input with width modifier component](https://dotnetcorefelpoc.azurewebsites.net/components/input-custom-width)
 
 #### HTML markup
 
