@@ -6,7 +6,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ### Hero with heading and content
 
-[Preview the hero with heading and content component]()
+[Preview the hero with heading and content component](https://dotnetcorefelpoc.azurewebsites.net/components/hero)
 
 #### HTML markup
 
@@ -34,7 +34,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ### Hero with image, heading and content
 
-[Preview the hero with image, heading and content component]()
+[Preview the hero with image, heading and content component](https://dotnetcorefelpoc.azurewebsites.net/components/hero-image-content)
 
 #### HTML markup
 
@@ -67,7 +67,7 @@ image-url="https://assets.nhs.uk/prod/images/S_0818_homepage_hero_1_F0147446.wid
 
 ### Hero with image only
 
-[Preview the hero with image only component]()
+[Preview the hero with image only component](https://dotnetcorefelpoc.azurewebsites.net/components/hero-image)
 
 #### HTML markup
 

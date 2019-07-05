@@ -2,6 +2,11 @@
 {
   public static class NhsUkTagHelperAttributes
   {
+    public const string PanelType="nhs-panel-type";
+    public const string PreviousUrl="previous-url";
+    public const string NextUrl = "next-url";
+    public const string PreviousLinkText = "previous-link-text";
+    public const string NextLinkText = "next-link-text";
     public const string Label="label";
     public const string BackToTopLink="back-to-top-link";
     public const string IsOrdered="is-ordered";

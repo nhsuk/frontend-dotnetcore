@@ -4,7 +4,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ## Quick start example
 
-[Preview the emergency alert component]()
+[Preview the emergency alert component](https://dotnetcorefelpoc.azurewebsites.net/components/emergency-alert)
 
 ### HTML markup
 

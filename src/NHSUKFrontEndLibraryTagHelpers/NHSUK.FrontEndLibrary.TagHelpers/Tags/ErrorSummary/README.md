@@ -7,7 +7,7 @@ Find out more about the error summary component and when to use it in the [NHS d
 
 ## Quick start example
 
-[Preview the error summary component]()
+[Preview the error summary component](https://dotnetcorefelpoc.azurewebsites.net/components/error-summary)
 
 ### HTML markup
 

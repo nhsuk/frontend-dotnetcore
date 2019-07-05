@@ -10,7 +10,7 @@ Find out more about the care card component and when to use it in the [NHS digit
 
 ### Care card non-urgent (blue)
 
-[Preview the care card non-urgent (blue) component]()
+[Preview the care card non-urgent (blue) component](https://dotnetcorefelpoc.azurewebsites.net/components/care-card-non-urgent)
 
 #### HTML markup
 
@@ -50,7 +50,7 @@ Find out more about the care card component and when to use it in the [NHS digit
 
 ### Care card urgent (red)
 
-[Preview care card urgent (red) component]()
+[Preview care card urgent (red) component](https://dotnetcorefelpoc.azurewebsites.net/components/care-card-urgent)
 
 #### HTML markup
 
@@ -90,7 +90,7 @@ Find out more about the care card component and when to use it in the [NHS digit
 
 ### Care card immediate (red and black)
 
-[Preview care card immediate (red and black) component]()
+[Preview care card immediate (red and black) component](https://dotnetcorefelpoc.azurewebsites.net/components/care-card-immediate)
 
 #### HTML markup
 

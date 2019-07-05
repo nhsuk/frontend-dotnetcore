@@ -14,7 +14,7 @@ For this component to be accessible and compatible with older browsers, include 
 
 ### Details
 
-[Preview the details component]()
+[Preview the details component](https://dotnetcorefelpoc.azurewebsites.net/components/details)
 
 #### HTML markup
 
@@ -61,7 +61,7 @@ For this component to be accessible and compatible with older browsers, include 
 
 ### Expander
 
-[Preview the expander component]()
+[Preview the expander component](https://dotnetcorefelpoc.azurewebsites.net/components/expander)
 
 #### Guidance
 
@@ -165,7 +165,7 @@ Find out more about the expander component and when to use it in the [NHS digita
 
 ### Expander group
 
-[Preview the expander group component]()
+[Preview the expander group component](https://dotnetcorefelpoc.azurewebsites.net/components/expander-group)
 
 #### HTML markup
 

@@ -8,7 +8,7 @@ Find out more about the hint component and when to use it in the [NHS digital se
 
 ## Quick start example
 
-[Preview the hint component]()
+[Preview the hint component](https://dotnetcorefelpoc.azurewebsites.net/components/hint)
 
 ### HTML markup
 

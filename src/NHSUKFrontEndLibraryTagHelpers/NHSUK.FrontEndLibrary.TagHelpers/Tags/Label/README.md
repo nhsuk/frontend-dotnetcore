@@ -6,7 +6,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ### Label
 
-[Preview the label component]()
+[Preview the label component](https://dotnetcorefelpoc.azurewebsites.net/components/label)
 
 #### HTML markup
 
@@ -27,7 +27,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ### Label with bold text
 
-[Preview the label with bold text component]()
+[Preview the label with bold text component](https://dotnetcorefelpoc.azurewebsites.net/components/label-bold)
 
 #### HTML markup
 
@@ -48,7 +48,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ### Label as page heading
 
-[Preview the label as page heading component]()
+[Preview the label as page heading component](https://dotnetcorefelpoc.azurewebsites.net/components/label-page-heading)
 
 #### HTML markup
 

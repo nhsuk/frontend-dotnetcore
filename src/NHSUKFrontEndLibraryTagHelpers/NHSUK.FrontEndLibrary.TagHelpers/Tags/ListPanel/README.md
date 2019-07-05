@@ -4,7 +4,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ## Quick start example
 
-[Preview the list panel component]()
+[Preview the list panel component](https://dotnetcorefelpoc.azurewebsites.net/components/list-panel)
 
 ### HTML markup
 
@@ -101,6 +101,25 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 ### Taghelper
 
 ```
+<nhs-list is-ordered="true">
+  <nhs-list-panel label="A" id="A" back-to-top-link="#nhsuk-nav-a-z">
+    <nhs-list-panel-item href="/conditions/abdominal-aortic-aneurysm/">AAA</nhs-list-panel-item>
+    <nhs-list-panel-item href="/conditions/abdominal-aortic-aneurysm/">Abdominal aortic aneurysm</nhs-list-panel-item>
+    <nhs-list-panel-item href="/conditions/abscess/">Abscess</nhs-list-panel-item>
+  </nhs-list-panel>
+  <nhs-list-panel label="B" id="B" disabled="true" back-to-top-link="#nhsuk-nav-a-z">
+    There are currently no conditions listed
+  </nhs-list-panel>
+  <nhs-list-panel label="C" id="C" back-to-top-link="#nhsuk-nav-a-z">
+    <nhs-list-panel-item href="/conditions/chest-pain/">Chest pain</nhs-list-panel-item>
+    <nhs-list-panel-item href="/conditions/cold-sores/">Cold sore</nhs-list-panel-item>
+  </nhs-list-panel>
+  <nhs-list-panel label="D" id="D" back-to-top-link="#nhsuk-nav-a-z">
+    <nhs-list-panel-item href="/conditions/dandruff/">Dandruff</nhs-list-panel-item>
+    <nhs-list-panel-item href="/conditions/dementia/">Dementia</nhs-list-panel-item>
+    <nhs-list-panel-item href="/conditions/toothache/">Dental pain</nhs-list-panel-item>
+  </nhs-list-panel>
+</nhs-list>
 
 ```
 
@@ -110,12 +129,8 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 | --------------------|----------|-----------|--------------|
 | **label**           | string   | No        | The text label of the list panel. |
 | **id**              | string   | No        | The ID of the label heading. |
-| **headingLevel**    | integer  | No        | Optional heading level for the label heading. Default: 2 |
-| **backToTop**       | boolean  | No        | If set to true, a back to top link will be displayed. |
-| **backToTopLink**   | string   | No        | The href value of the back to top link. |
-| **disable**         | boolean  | No        | If set to true, this indicates there are no items in the list panel. |
-| **message**         | string   | No        | The text value to display if there are no items in the list panel (and disable has been set to true). |
-| **items**           | array    | No        | Array of list panel items. |
-| **items[].URL**     | string   | No        | The href value of an item in the list panel. |
-| **items[].link**    | string   | No        | The text value of an item in the list panel. |
+| **back-to-top-link**   | string   | No        | The href value of the back to top link. |
+| **disabled**         | boolean  | No        | If set to true, this indicates there are no items in the list panel. |
+| **nhs-list-panel-item**           | Taghelper    | No        | Taghelper representing a panel item. |
+| **nhs-list-panel-item.href**     | string   | No        | The href value of an item in the list panel. |
 | **classes**         | string   | No        | Optional additional classes to add to the list panel. Separate each class with a space. |

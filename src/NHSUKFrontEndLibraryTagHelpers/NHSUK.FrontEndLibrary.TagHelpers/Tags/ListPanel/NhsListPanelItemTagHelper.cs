@@ -17,7 +17,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.ListPanel
       SetClassAttribute(output, CssClasses.NhsUkListPanelItem);
 
       var panelItemLink = new TagBuilder(HtmlElements.A);
-      panelItemLink.AddCssClass(CssClasses.NhsUkPanelItemLink);
+      panelItemLink.AddCssClass(CssClasses.NhsUkListPanelItemLink);
       if (context.AllAttributes.ContainsName(HtmlAttributes.HRef))
       {
         var href = context.AllAttributes[HtmlAttributes.HRef].Value.ToString();

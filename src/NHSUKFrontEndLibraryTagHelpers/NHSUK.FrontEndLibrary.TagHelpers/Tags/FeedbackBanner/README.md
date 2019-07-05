@@ -11,7 +11,7 @@ The Feedback banner should be used below the footer component in templates for t
 
 ## Quick start example
 
-[Preview the feedback banner component]()
+[Preview the feedback banner component](https://dotnetcorefelpoc.azurewebsites.net/components/feedback-banner)
 
 ### HTML markup
 

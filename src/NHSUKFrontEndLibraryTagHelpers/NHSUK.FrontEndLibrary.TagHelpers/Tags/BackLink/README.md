@@ -8,7 +8,7 @@ Find out more about the back link component and when to use it in the [NHS digit
 
 ## Quick start example
 
-[Preview the back link component]()
+[Preview the back link component](https://dotnetcorefelpoc.azurewebsites.net/components/back-link)
 
 ### HTML markup
 
