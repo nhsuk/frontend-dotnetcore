@@ -18,12 +18,12 @@ Find out more about the error message component and when to use it in the [NHS d
 </span>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 <nhs-error-message>Error message about full name goes here</nhs-error-message>
 ```
-### Taghelper
+### Taghelper attributes
 
 The error message taghelper takes the following attributes:
 

@@ -70,7 +70,7 @@ Find out more about the do and don't list component and when to use it in the [N
 </div>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 <nhs-do-dont-list nhs-do-dont-list-type="Do">
@@ -87,7 +87,7 @@ Find out more about the do and don't list component and when to use it in the [N
 </nhs-do-dont-list>
 ```
 
-### Taghelper
+### Taghelper attributes
 
 The do and don't list taghelper takes the following attributes:
 

@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using NHSUK.FrontEndLibrary.TagHelpers.Constants;
-using NHSUK.FrontEndLibrary.TagHelpers.Tags.Panel;
+using NHSUK.FrontEndLibrary.TagHelpers.Tags.Promo;
 using Xunit;
 
 namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
 {
-  public class NhsPanelGroupTagHelperTests
+  public class NhsPromoGroupTagHelperTests
   {
     private readonly TagHelperOutput _tagHelperOutput;
     private readonly TagHelperContext _tagHelperContext;
-    private readonly NhsPanelGroupTagHelper _tagHelper;
+    private readonly NhsPromoGroupTagHelper _tagHelper;
 
-    public NhsPanelGroupTagHelperTests()
+    public NhsPromoGroupTagHelperTests()
     {
-      _tagHelper = new NhsPanelGroupTagHelper();
+      _tagHelper = new NhsPromoGroupTagHelper();
       _tagHelperContext = new TagHelperContext(
         new TagHelperAttributeList(),
         new Dictionary<object, object>(),
@@ -40,7 +40,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
     [Fact]
     public void Process_Should_Set_ClassAttribute()
     {
-      Assert.Equal(CssClasses.NhsUkPanelGroup, _tagHelperOutput.Attributes[HtmlAttributes.ClassAttribute].Value);
+      Assert.Equal(CssClasses.NhsUkPromoGroup, _tagHelperOutput.Attributes[HtmlAttributes.ClassAttribute].Value);
     }
 
     [Fact]
@@ -56,10 +56,10 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
     [InlineData(GridColumnWidth.OneThird)]
     [InlineData(GridColumnWidth.TwoThirds)]
     [InlineData(GridColumnWidth.ThreeQuarters)]
-    public async void ProcessAsync_Should_Set_ParentType_Context(GridColumnWidth width)
+    public void Process_Should_Set_ParentType_Context(GridColumnWidth width)
     {
       _tagHelper.GridColumnWidth = width;
-      await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
+      _tagHelper.Process(_tagHelperContext, _tagHelperOutput);
 
       Assert.Equal(_tagHelperContext.Items["ParentColumnWidth"], _tagHelper.GridColumnWidth);
     }

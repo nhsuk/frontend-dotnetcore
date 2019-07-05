@@ -12,7 +12,7 @@
 </div>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -20,7 +20,7 @@
   <nhs-input nhs-input-type="Standard" id="input-example" name="test-name"></nhs-input>
 </nhs-form-group>
 ```
-### Taghelper
+### Taghelper attributes
 
 | Name                      | Type     | Required  | Description             |
 | --------------------------|----------|-----------|-------------------------|

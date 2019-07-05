@@ -2,6 +2,7 @@
 {
   public static class NhsUkTagHelperAttributes
   {
+    public const string PromoSize = "nhs-promo-size";
     public const string PanelType="nhs-panel-type";
     public const string PreviousUrl="previous-url";
     public const string NextUrl = "next-url";
@@ -32,7 +33,7 @@
     public const string TitleText = "title-text";
     public const string TitleId = "title-id";
     public const string DescriptionText = "description-text";
-    public const string GridColumnType = "grid-column-width";
+    public const string GridColumnWidth = "grid-column-width";
     public const string FormGroupType = "nhs-form-group-type";
     public const string LegendSize = "nhs-legend-size";
     public const string IsPageHeading = "is-page-heading";

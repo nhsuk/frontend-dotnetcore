@@ -4,7 +4,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ## Quick start example
 
-[Preview the nav a-z component]()
+[Preview the nav a-z component](https://dotnetcorefelpoc.azurewebsites.net/components/nav-a-z)
 
 ### HTML markup
 
@@ -93,7 +93,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 </nav>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 <nhs-nav-a-z>

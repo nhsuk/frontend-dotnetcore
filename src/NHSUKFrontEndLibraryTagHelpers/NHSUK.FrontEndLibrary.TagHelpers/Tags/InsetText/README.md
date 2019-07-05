@@ -19,7 +19,7 @@ Find out more about the inset text component and when to use it in the [NHS digi
 </div>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 

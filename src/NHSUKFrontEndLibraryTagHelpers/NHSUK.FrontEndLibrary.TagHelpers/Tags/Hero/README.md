@@ -25,7 +25,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 </section>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-hero title-text="We’re here for you">Helping you take control of your health and wellbeing.</nhs-hero>
@@ -56,7 +56,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 </section>
 ```
 
-#### Taghelper 
+#### Taghelper markup 
 
 ```
 <nhs-hero title-text="We’re here for you" 
@@ -78,7 +78,7 @@ image-url="https://assets.nhs.uk/prod/images/S_0818_homepage_hero_1_F0147446.wid
 </section>
 ```
 
-#### Taghelper 
+#### Taghelper markup 
 
 ```
 <nhs-hero image-url="https://assets.nhs.uk/prod/images/S_0818_homepage_hero_1_F0147446.width-1000.jpg"></nhs-hero>

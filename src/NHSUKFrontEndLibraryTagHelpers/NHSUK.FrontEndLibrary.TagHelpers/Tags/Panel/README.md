@@ -6,7 +6,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ### Panel
 
-[Preview the panel component]()
+[Preview the panel component](https://dotnetcorefelpoc.azurewebsites.net/components/panel)
 
 #### HTML markup
 
@@ -17,7 +17,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-panel nhs-panel-type="Standard">
@@ -30,7 +30,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ### Panel with a label
 
-[Preview the panel with a label component]()
+[Preview the panel with a label component](https://dotnetcorefelpoc.azurewebsites.net/components/panel-with-label)
 
 #### HTML markup
 
@@ -41,7 +41,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-panel nhs-panel-type="WithLabel" label="Live well">
@@ -53,7 +53,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ### Grey panel
 
-[Preview the grey panel component]()
+[Preview the grey panel component](https://dotnetcorefelpoc.azurewebsites.net/components/panel-grey)
 
 #### HTML markup
 
@@ -63,7 +63,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-panel nhs-panel-type="Grey">
@@ -75,7 +75,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ### Panel group
 
-[Preview the panel group component](l)
+[Preview the panel group component](https://dotnetcorefelpoc.azurewebsites.net/components/panel-group)
 
 #### HTML markup
 
@@ -110,10 +110,10 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
-<nhs-panel-group>
+<nhs-panel-group grid-column-width="OneHalf">
   <nhs-panel nhs-panel-type="Standard">
     <h3>Eat well</h3>
     <p>All you need to know about the major food groups and a healthy, balanced diet</p>
@@ -123,7 +123,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
     <p>Check your BMI using our healthy weight calculator and find out if you're a healthy weight</p>
   </nhs-panel>
 </nhs-panel-group>
-<nhs-panel-group>
+<nhs-panel-group grid-column-width="OneHalf">
   <nhs-panel nhs-panel-type="Standard">
     <h3>Excercise</h3>
     <p>Programmes, workouts and tips to get you moving and improve your fitness and wellbeing</p>
@@ -133,6 +133,8 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
     <p>Find out how to sleep well and the common lifestyle factors that are making you tired</p>
   </nhs-panel>
 </nhs-panel-group>
+
+
 ```
 
 ---

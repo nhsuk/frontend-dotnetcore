@@ -98,7 +98,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 </ol>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 <nhs-list is-ordered="true">

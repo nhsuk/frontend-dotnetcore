@@ -1,18 +1,19 @@
 ﻿using Microsoft.AspNetCore.Razor.TagHelpers;
 using NHSUK.FrontEndLibrary.TagHelpers.Constants;
 
-namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Panel
+namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Promo
 {
-  [HtmlTargetElement(TagHelperNames.NhsPanelGroupTag, Attributes = NhsUkTagHelperAttributes.GridColumnWidth)]
-  [RestrictChildren(TagHelperNames.NhsPanelTag)]
-  public class NhsPanelGroupTagHelper : NhsBaseTagHelper
+  [HtmlTargetElement(TagHelperNames.NhsPromoGroupTag, Attributes = NhsUkTagHelperAttributes.GridColumnWidth)]
+  [RestrictChildren(TagHelperNames.NhsPromoTag)]
+  public class NhsPromoGroupTagHelper : NhsBaseTagHelper
   {
     [HtmlAttributeName(NhsUkTagHelperAttributes.GridColumnWidth)]
     public GridColumnWidth GridColumnWidth { get; set; }
+
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
       output.TagName = HtmlElements.Div;
-      SetClassAttribute(output, CssClasses.NhsUkPanelGroup);
+      SetClassAttribute(output, CssClasses.NhsUkPromoGroup);
 
       output.TagMode = TagMode.StartTagAndEndTag;
 

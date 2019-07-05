@@ -87,18 +87,25 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
       Assert.Equal(string.Format("<h3 class=\"nhsuk-panel-with-label__label\">{0}</h3>", label), _tagHelperOutput.PreContent.GetContent());
     }
 
-    [Fact]
-    public async void ProcessAsync_Should_Set_PanelGroup_PreElement()
+    [Theory]
+    [InlineData(GridColumnWidth.Full, CssClasses.NhsUkGridFull)]
+    [InlineData(GridColumnWidth.OneHalf, CssClasses.NhsUkGridOneHalf)]
+    [InlineData(GridColumnWidth.OneQuarter, CssClasses.NhsUkGridOneQuarter)]
+    [InlineData(GridColumnWidth.OneThird, CssClasses.NhsUkGridOneThird)]
+    [InlineData(GridColumnWidth.TwoThirds, CssClasses.NhsUkGridTwoThirds)]
+    [InlineData(GridColumnWidth.ThreeQuarters, CssClasses.NhsUkGridThreeQuarters)]
+    [InlineData((GridColumnWidth)(-1), CssClasses.NhsUkGridFull)]
+    public async void ProcessAsync_Should_Set_PanelGroup_PreElement(GridColumnWidth width, string classAttribute)
     {
-      _tagHelperContext.Items["Parent"] = TagHelperNames.NhsPanelGroupTag;
+      _tagHelperContext.Items["ParentColumnWidth"] = width;
 
-      var expected = "<div class=\"nhsuk-grid-column-one-half nhsuk-panel-group__item\">";
+      var expected = string.Format("<div class=\"{0} nhsuk-panel-group__item\">", classAttribute);
 
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
 
       Assert.Equal(expected, _tagHelperOutput.PreElement.GetContent());
     }
-
+    
     [Fact]
     public async void ProcessAsync_Should_Not_Set_PreElement_If_No_PanelGroup()
     {
@@ -108,10 +115,16 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
     }
 
 
-    [Fact]
-    public async void ProcessAsync_Should_Set_PanelGroup_PostElement()
+    [Theory]
+    [InlineData(GridColumnWidth.Full)]
+    [InlineData(GridColumnWidth.OneHalf)]
+    [InlineData(GridColumnWidth.OneQuarter)]
+    [InlineData(GridColumnWidth.OneThird)]
+    [InlineData(GridColumnWidth.TwoThirds)]
+    [InlineData(GridColumnWidth.ThreeQuarters)]
+    public async void ProcessAsync_Should_Set_PanelGroup_PostElement(GridColumnWidth width)
     {
-      _tagHelperContext.Items["Parent"] = TagHelperNames.NhsPanelGroupTag;
+      _tagHelperContext.Items["ParentColumnWidth"] = width;
 
       var expected = "</div>";
 

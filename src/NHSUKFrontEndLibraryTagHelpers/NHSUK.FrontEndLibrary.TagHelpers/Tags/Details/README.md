@@ -40,7 +40,7 @@ For this component to be accessible and compatible with older browsers, include 
 </details>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-details display-text="Where can I find my NHS number?" nhs-details-type="Standard">
@@ -117,7 +117,7 @@ Find out more about the expander component and when to use it in the [NHS digita
 </details>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-details display-text="Opening times" nhs-details-type="Expander">
@@ -207,7 +207,7 @@ Find out more about the expander component and when to use it in the [NHS digita
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-expander-group>
@@ -235,7 +235,7 @@ Find out more about the expander component and when to use it in the [NHS digita
 
 ---
 
-### Taghelper
+### Taghelper attributes
 
 The details taghelper takes the following attributes:
 

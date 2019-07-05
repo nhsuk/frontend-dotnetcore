@@ -31,7 +31,7 @@ The Feedback banner should be used below the footer component in templates for t
 </div>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 <nhs-feedback-banner title-text="Help us make the NHS website better" href="https://www.nhs.uk"
@@ -39,7 +39,7 @@ The Feedback banner should be used below the footer component in templates for t
 
 ```
 
-### Taghelper
+### Taghelper attributes
 
 The feedback banner taghelper takes the following attributes:
 

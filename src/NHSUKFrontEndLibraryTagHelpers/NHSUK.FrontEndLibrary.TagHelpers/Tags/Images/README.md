@@ -25,7 +25,7 @@ Find out more about the images component and when to use it in the [NHS digital 
 </figure>
 ```
 
-### Nunjucks macro
+### Taghelper markup
 
 ```
 <nhs-images caption="Itchy, red, watering eyes" src="https://assets.nhs.uk/prod/images/S_1017_allergic-conjunctivitis_M15.2e16d0ba.fill-320x213.jpg"

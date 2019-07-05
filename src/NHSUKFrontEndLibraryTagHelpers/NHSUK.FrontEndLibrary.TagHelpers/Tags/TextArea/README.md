@@ -26,7 +26,7 @@ Find out more about the textarea component and when to use it in the [NHS digita
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -57,7 +57,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -85,7 +85,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Error">
@@ -95,7 +95,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 </nhs-form-group>
 ```
 ---
-### Taghelper
+### Taghelper attributes
 
 | Name                    | Type     | Required  | Description             |
 | ------------------------|----------|-----------|-------------------------|

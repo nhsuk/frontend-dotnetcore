@@ -128,7 +128,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 </header>
 ```
 
-#### Taghelper 
+#### Taghelper markup
 
 ```
 <nhs-header nhs-header-type="Standard" logo-href="https://www.nhs.uk/" show-search="true">
@@ -232,7 +232,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 </header>
 ```
 
-#### Taghelper
+#### Taghelper markup
 ```
 <nhs-header nhs-header-type="Standard">
   <nhs-header-navigation>
@@ -298,7 +298,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 </header>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-header nhs-header-type="Standard" show-search="true">
@@ -329,7 +329,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 </header>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-header nhs-header-type="Standard">
@@ -360,7 +360,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 </header>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-header nhs-header-type="Transactional">
@@ -394,7 +394,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 </header>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-header nhs-header-type="Transactional" service-href="https://beta.nhs.uk/book-a-gp-appointment/" service-name="Register with a GP">
@@ -428,7 +428,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 </header>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-header nhs-header-type="Transactional" service-href="https://www.nhs.uk/your-nhs-data-matters/" service-name="Find out why your NHS data matters">
@@ -490,7 +490,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-header nhs-header-type="Standard"service-name="Digital service manual" show-search="true">
@@ -499,7 +499,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ---
 
-### Taghelper
+### Taghelper attributes
 
 | Name                       | Type     | Required  | Description  |
 | ---------------------------|----------|-----------|--------------|

@@ -41,7 +41,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -97,7 +97,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -153,7 +153,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -213,7 +213,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -278,7 +278,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -339,7 +339,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -397,7 +397,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Error">
@@ -420,7 +420,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 
 ```
 ---
-### Taghelper
+### Taghelper attributes
 
 | Name                | Type     | Required  | Description                 |
 | --------------------|----------|-----------|-----------------------------|

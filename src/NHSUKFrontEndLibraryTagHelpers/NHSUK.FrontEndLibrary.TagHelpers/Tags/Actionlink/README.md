@@ -24,7 +24,7 @@ Find out more about the action link component and when to use it in the [NHS dig
 </div>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 <nhs-action-link href="https://www.nhs.uk/service-search/minor-injuries-unit/locationsearch/551">
