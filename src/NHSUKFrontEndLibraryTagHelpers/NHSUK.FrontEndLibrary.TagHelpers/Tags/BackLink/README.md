@@ -23,7 +23,7 @@ Find out more about the back link component and when to use it in the [NHS digit
 </div>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 <nhs-back-link href="#">Go back</nhs-back-link>

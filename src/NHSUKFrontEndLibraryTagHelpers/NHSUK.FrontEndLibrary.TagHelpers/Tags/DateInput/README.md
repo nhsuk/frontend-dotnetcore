@@ -55,7 +55,7 @@ Note: The `pattern` attribute is not valid HTML for inputs where the type attrib
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -141,7 +141,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
   <nhs-fieldset aria-describedby="dob-with-autocomplete-attribute-hint" role="group">
@@ -223,7 +223,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Error">
@@ -308,7 +308,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Error">
@@ -344,7 +344,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ---
 
-### Taghelper
+### Taghelper attributes
 
 | Name                      | Type     | Required  | Description             |
 | --------------------------|----------|-----------|-------------------------|

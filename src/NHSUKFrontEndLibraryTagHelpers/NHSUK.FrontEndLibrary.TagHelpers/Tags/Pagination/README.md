@@ -10,7 +10,7 @@ Find out more about the pagination component and when to use it in the [NHS digi
 
 ### Pagination
 
-[Preview the pagination component]()
+[Preview the pagination component](https://dotnetcorefelpoc.azurewebsites.net/components/pagination)
 
 #### HTML markup
 
@@ -41,7 +41,7 @@ Find out more about the pagination component and when to use it in the [NHS digi
 </nav>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-pagination next-link-text="Symptoms" next-url="/section/symptoms" 
@@ -72,7 +72,7 @@ previous-link-text="Treatments" previous-url="/section/treatments"></nhs-paginat
 
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-pagination next-link-text="Symptoms" next-url="/section/symptoms"></nhs-pagination>
@@ -102,7 +102,7 @@ previous-link-text="Treatments" previous-url="/section/treatments"></nhs-paginat
 
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-pagination previous-link-text="Treatments" previous-url="/section/treatments"></nhs-pagination>

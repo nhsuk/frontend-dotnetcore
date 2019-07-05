@@ -3,11 +3,11 @@ using NHSUK.FrontEndLibrary.TagHelpers.Constants;
 
 namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Layout
 {
-  [HtmlTargetElement(TagHelperNames.NhsGridColumnTag, Attributes = NhsUkTagHelperAttributes.GridColumnType)]
+  [HtmlTargetElement(TagHelperNames.NhsGridColumnTag, Attributes = NhsUkTagHelperAttributes.GridColumnWidth)]
   public class NhsGridColumnTagHelper : NhsBaseTagHelper
   {
     private TagHelperOutput _tagHelperOutput;
-    [HtmlAttributeName(NhsUkTagHelperAttributes.GridColumnType)]
+    [HtmlAttributeName(NhsUkTagHelperAttributes.GridColumnWidth)]
     public GridColumnWidth GridColumnType { get; set; }
 
     public override void Process(TagHelperContext context, TagHelperOutput output)

@@ -32,7 +32,7 @@ Find out more about the error summary component and when to use it in the [NHS d
 </div>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 <nhs-error-summary title-text="There is a problem" title-id="error-summary-title" description-text="Optional description of the errors and how to correct them" 
@@ -46,7 +46,7 @@ role="alert" tabindex="-1" data-module="error-summary">
 </nhs-error-summary>
 ```
 
-### Taghelper
+### Taghelper attributes
 
 | Name                           | Type     | Required  | Description             |
 | ------------------------------|----------|-----------|-------------------------|

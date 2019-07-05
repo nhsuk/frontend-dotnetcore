@@ -16,7 +16,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 </label>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-label nhs-label-type="Standard">National Insurance number</nhs-label>
@@ -37,7 +37,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 </label>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-label nhs-label-type="Bold">National Insurance number</nhs-label>
@@ -60,14 +60,14 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 </h1>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-label nhs-label-type="PageHeading">National Insurance number</nhs-label>
 ```
 
 ---
-### Taghelper 
+### Taghelper attributes
 
 The label taghelper takes the following attributes:
 

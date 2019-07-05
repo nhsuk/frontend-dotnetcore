@@ -35,7 +35,7 @@ Find out more about the contents list component and when to use it in the [NHS d
 </nav>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 <nhs-contents-list>
@@ -53,7 +53,7 @@ Find out more about the contents list component and when to use it in the [NHS d
 
 ```
 
-### Taghelper
+### Taghelper attributes
 
 | Name                    | Type     | Required  | Description  |
 | ------------------------|----------|-----------|--------------|

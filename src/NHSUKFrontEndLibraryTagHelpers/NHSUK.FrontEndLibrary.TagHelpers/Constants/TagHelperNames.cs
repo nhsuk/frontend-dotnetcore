@@ -2,24 +2,26 @@
 {
   public static class TagHelperNames
   {
-    public const string NhsPanelGroupTag="nhs-panel-group";
-    public const string NhsPanelTag="nhs-panel";
-    public const string NhsPaginationTag="nhs-pagination";
-    public const string NhsNavAzTag="nhs-nav-a-z";
-    public const string NhsNavAzItemTag="nhs-nav-a-z-item";
-    public const string NhsListPanelTag="nhs-list-panel";
-    public const string NhsListPanelItemTag="nhs-list-panel-item";
-    public const string NhsInsetTextTag="nhs-inset-text";
-    public const string NhsImagesTag="nhs-images";
-    public const string NhsHeroTag="nhs-hero";
-    public const string NhsFeedbackBannerTag= "nhs-feedback-banner";
-    public const string NhsEmergencyAlertTag="nhs-emergency-alert";
-    public const string NhsDoDontListTag="nhs-do-dont-list";
-    public const string NhsDoDontListItemTag="nhs-do-dont-list-item";
-    public const string NhsExpanderGroupTag="nhs-expander-group";
-    public const string NhsDetailsTag="nhs-details";
-    public const string NhsDateInputItemTag="nhs-date-input-item";
-    public const string NhsDateInputTag="nhs-date-input";
+    public const string NhsPromoTag = "nhs-promo";
+    public const string NhsPromoGroupTag = "nhs-promo-group";
+    public const string NhsPanelGroupTag = "nhs-panel-group";
+    public const string NhsPanelTag = "nhs-panel";
+    public const string NhsPaginationTag = "nhs-pagination";
+    public const string NhsNavAzTag = "nhs-nav-a-z";
+    public const string NhsNavAzItemTag = "nhs-nav-a-z-item";
+    public const string NhsListPanelTag = "nhs-list-panel";
+    public const string NhsListPanelItemTag = "nhs-list-panel-item";
+    public const string NhsInsetTextTag = "nhs-inset-text";
+    public const string NhsImagesTag = "nhs-images";
+    public const string NhsHeroTag = "nhs-hero";
+    public const string NhsFeedbackBannerTag = "nhs-feedback-banner";
+    public const string NhsEmergencyAlertTag = "nhs-emergency-alert";
+    public const string NhsDoDontListTag = "nhs-do-dont-list";
+    public const string NhsDoDontListItemTag = "nhs-do-dont-list-item";
+    public const string NhsExpanderGroupTag = "nhs-expander-group";
+    public const string NhsDetailsTag = "nhs-details";
+    public const string NhsDateInputItemTag = "nhs-date-input-item";
+    public const string NhsDateInputTag = "nhs-date-input";
     public const string NhsListTag = "nhs-list";
     public const string NhsTextAreaTag = "nhs-text-area";
     public const string NhsRadiosTag = "nhs-radios";

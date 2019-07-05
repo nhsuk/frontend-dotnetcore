@@ -24,7 +24,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 </div>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 <nhs-emergency-alert title-text="National flu outbreak" last-updated="Updated 23 mins ago" href="https://www.nhs.uk"
@@ -33,7 +33,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ```
 
-### Taghelper
+### Taghelper attributes
 
 The emergency alert taghelper takes the following attributes:
 

@@ -22,7 +22,7 @@ Find out more about the fieldset component and when to use it in the [NHS digita
 </fieldset>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-fieldset>
@@ -48,7 +48,7 @@ Find out more about the fieldset component and when to use it in the [NHS digita
 </fieldset>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-fieldset>
@@ -102,7 +102,7 @@ Find out more about the fieldset component and when to use it in the [NHS digita
 
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-fieldset>
@@ -128,7 +128,7 @@ Find out more about the fieldset component and when to use it in the [NHS digita
 </nhs-fieldset>
 
 ```
-### Taghelper
+### Taghelper attributes
 
 | Name                      | Type     | Required  | Description             |
 | --------------------------|----------|-----------|-------------------------|

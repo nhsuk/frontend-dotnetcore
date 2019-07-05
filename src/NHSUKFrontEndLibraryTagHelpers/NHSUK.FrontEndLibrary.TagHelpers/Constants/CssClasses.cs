@@ -2,31 +2,35 @@
 {
   public static class CssClasses
   {
-    public const string NhsUkPanelGroup= "nhsuk-grid-row nhsuk-panel-group";
-    public const string NhsUkPanel= "nhsuk-panel";
-    public const string NhsUkPanelGrey= NhsUkPanel + " nhsuk-panel--grey";
-    public const string NhsUkPanelLabel= "nhsuk-panel-with-label";
-    public const string NhsUkPagination= "nhsuk-pagination";
-    public const string NhsUkNavAz= "nhsuk-nav-a-z";
-    public const string NhsUkNavAzItem= "nhsuk-nav-a-z__item";
-    public const string NhsUkListPanelItemLink= "nhsuk-list-panel__link";
-    public const string NhsUkListPanelItem= "nhsuk-list-panel__item";
-    public const string NhsUkListPanel= "nhsuk-list-panel";
-    public const string NhsUkInsetText= "nhsuk-inset-text";
-    public const string NhsUkImages= "nhsuk-image";
+    public const string NhsUkPromo= "nhsuk-promo";
+    public static string NhsUkPromoSmall = NhsUkPromo + " nhsuk-promo--small";
+    public const string NhsUkGridRow = "nhsuk-grid-row";
+    public const string NhsUkPromoGroup = NhsUkGridRow + " nhsuk-promo-group";
+    public const string NhsUkPanelGroup = NhsUkGridRow + " nhsuk-panel-group";
+    public const string NhsUkPanel = "nhsuk-panel";
+    public const string NhsUkPanelGrey = NhsUkPanel + " nhsuk-panel--grey";
+    public const string NhsUkPanelLabel = "nhsuk-panel-with-label";
+    public const string NhsUkPagination = "nhsuk-pagination";
+    public const string NhsUkNavAz = "nhsuk-nav-a-z";
+    public const string NhsUkNavAzItem = "nhsuk-nav-a-z__item";
+    public const string NhsUkListPanelItemLink = "nhsuk-list-panel__link";
+    public const string NhsUkListPanelItem = "nhsuk-list-panel__item";
+    public const string NhsUkListPanel = "nhsuk-list-panel";
+    public const string NhsUkInsetText = "nhsuk-inset-text";
+    public const string NhsUkImages = "nhsuk-image";
     public const string NhsUkHero = "nhsuk-hero";
-    public const string NhsUkHeroImage =NhsUkHero + " nhsuk-hero--image";
-    public const string NhsUkHeroImageContent= NhsUkHeroImage + " nhsuk-hero--image-description";
-    public const string NhsUkFeedbackBanner= "nhsuk-feedback-banner";
+    public const string NhsUkHeroImage = NhsUkHero + " nhsuk-hero--image";
+    public const string NhsUkHeroImageContent = NhsUkHeroImage + " nhsuk-hero--image-description";
+    public const string NhsUkFeedbackBanner = "nhsuk-feedback-banner";
     public const string NhsUkList = "nhsuk-list";
-    public const string NhsUkListTick= NhsUkList + " nhsuk-list--tick";
+    public const string NhsUkListTick = NhsUkList + " nhsuk-list--tick";
     public const string NhsUkListCross = NhsUkList + " nhsuk-list--cross";
-    public const string NhsUkGlobalAlert= "nhsuk-global-alert";
-    public const string NhsUkDoDontList= "nhsuk-do-dont-list";
-    public const string NhsUkExpanderGroup= "nhsuk-expander-group";
+    public const string NhsUkGlobalAlert = "nhsuk-global-alert";
+    public const string NhsUkDoDontList = "nhsuk-do-dont-list";
+    public const string NhsUkExpanderGroup = "nhsuk-expander-group";
     public const string NhsUkDetails = "nhsuk-details";
     public const string NhsUkExpander = NhsUkDetails + " nhsuk-expander";
-    
+
     public const string NhsUkTextArea = "nhsuk-textarea";
     public const string NhsUkTextAreaError = NhsUkTextArea + " nhsuk-textarea--error";
 
@@ -44,8 +48,6 @@
     public const string NhsUkWidthContainerFluid = "nhsuk-width-container-fluid";
 
     public const string NhsUkMainWrapper = "nhsuk-main-wrapper";
-
-    public const string NhsUkGridRow = "nhsuk-grid-row";
 
     public const string NhsLabelWrapper = "nhsuk-label-wrapper";
 
@@ -116,7 +118,7 @@
     public const string NhsUkGridThreeQuarters = "nhsuk-grid-column-three-quarters";
     public const string NhsUkGridOneQuarter = "nhsuk-grid-column-one-quarter";
     public const string NhsUkGridOneHalf = "nhsuk-grid-column-one-half";
-    public const string NhsUkGridOneThird = ".nhsuk-grid-column-one-third";
+    public const string NhsUkGridOneThird = "nhsuk-grid-column-one-third";
     public const string NhsUkGridFull = "nhsuk-grid-column-full";
 
     public const string NhsUkFormGroup = "nhsuk-form-group";

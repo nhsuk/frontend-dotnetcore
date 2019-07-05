@@ -29,7 +29,7 @@ Find out more about the footer component and when to use it in the [NHS digital 
 </footer>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 <nhs-footer>
@@ -67,7 +67,7 @@ Find out more about the footer component and when to use it in the [NHS digital 
 </footer>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-footer is-list-columns="true">
@@ -81,7 +81,7 @@ Find out more about the footer component and when to use it in the [NHS digital 
   <nhs-footer-item href="https://www.nhs.uk/our-policies/cookies-policy/">Cookies</nhs-footer-item>
 </nhs-footer>
 ```
-### Taghelper
+### Taghelper attributes
 
 The footer taghelper takes the following attributes:
 

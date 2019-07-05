@@ -47,7 +47,7 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -113,7 +113,7 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 
@@ -171,7 +171,7 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -235,7 +235,7 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -303,7 +303,7 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Error"> 
@@ -328,7 +328,7 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 </nhs-form-group>
 
 ```
-### Taghelper
+### Taghelper attributes
 
 | Name                | Type     | Required  | Description  |
 | --------------------|----------|-----------|--------------|

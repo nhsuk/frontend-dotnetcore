@@ -32,7 +32,7 @@ Find out more about the care card component and when to use it in the [NHS digit
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-care-card heading-text="Speak to a GP if" nhs-care-card-type="NonUrgent">
@@ -72,7 +72,7 @@ Find out more about the care card component and when to use it in the [NHS digit
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-care-card nhs-care-card-type="Urgent" heading-text="Ask for an urgent GP appointment if">
@@ -111,7 +111,7 @@ Find out more about the care card component and when to use it in the [NHS digit
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-care-card nhs-care-card-type="Immediate" heading-text="Call 999 if you have sudden chest pain that">
@@ -126,7 +126,7 @@ Find out more about the care card component and when to use it in the [NHS digit
 
 ---
 
-### Taghelper
+### Taghelper attributes
 
 The care card taghelper takes the following attributes:
 

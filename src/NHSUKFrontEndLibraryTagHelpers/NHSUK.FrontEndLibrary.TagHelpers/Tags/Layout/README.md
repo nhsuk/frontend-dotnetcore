@@ -24,7 +24,7 @@
 </div>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
  <nhs-width-container container-width="Standard">
@@ -45,7 +45,7 @@
 
 
 ```
-### Taghelper
+### Taghelper attributes
 
 | Name                      | Type     | Required  | Description             |
 | --------------------------|----------|-----------|-------------------------|

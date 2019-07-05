@@ -25,7 +25,7 @@ Find out more about the breadcrumb component and when to use it in the [NHS digi
 </nav>
 ```
 
-### Taghelper
+### Taghelper markup
 
 ```
 <nhs-breadcrumb>
@@ -39,7 +39,7 @@ Find out more about the breadcrumb component and when to use it in the [NHS digi
 
 ```
 
-### Taghelper
+### Taghelper attributes
 
 
 | Name                | Type     | Required  | Description  |

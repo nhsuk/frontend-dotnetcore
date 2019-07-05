@@ -23,7 +23,7 @@ Find out more about the input component and when to use it in the [NHS digital s
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -51,7 +51,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
   <input class="nhsuk-input" id="input-with-autocomplete-attribute" name="postcode" type="text" autocomplete="postal-code">
 </div>
 ```
-#### Taghelper
+#### Taghelper markup
 ```
 <nhs-form-group nhs-form-group-type="Standard">
   <nhs-label nhs-label-type="Standard" for="input-with-autocomplete-attribute">Postcode</nhs-label>
@@ -78,7 +78,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -110,7 +110,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Error">
@@ -140,7 +140,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 </div>
 ```
 
-#### Taghelper
+#### Taghelper markup
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
@@ -151,7 +151,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 ```
 
 ---
-### Taghelper
+### Taghelper attributes
 
 | Name                | Type     | Required  | Description             |
 | --------------------|----------|-----------|-------------------------|
