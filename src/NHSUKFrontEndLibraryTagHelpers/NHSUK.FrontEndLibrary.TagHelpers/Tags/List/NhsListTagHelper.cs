@@ -11,6 +11,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.List
     public bool IsOrdered { get; set; }
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
+      base.Process(context, output);
       output.TagName = IsOrdered ? HtmlElements.Ol : HtmlElements.Ul;
 
       ClassesToPrepend.Add(CssClasses.NhsUkList);

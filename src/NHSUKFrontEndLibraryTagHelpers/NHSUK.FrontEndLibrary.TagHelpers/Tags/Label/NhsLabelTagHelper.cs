@@ -1,18 +1,26 @@
 ﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.TagHelpers;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using NHSUK.FrontEndLibrary.TagHelpers.Constants;
 
 namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Label
 {
-  [HtmlTargetElement(TagHelperNames.NhsLabelTag, 
+  [HtmlTargetElement(TagHelperNames.NhsLabelTag,
     Attributes = NhsUkTagHelperAttributes.LabelType)]
-  public class NhsLabelTagHelper : NhsBaseTagHelper
+  public class NhsLabelTagHelper : LabelTagHelper
   {
+    [HtmlAttributeName("classes")]
+    public string Classes { get; set; }
+
     [HtmlAttributeName(NhsUkTagHelperAttributes.LabelType)]
     public LabelType LabelType { get; set; }
-
+    public NhsLabelTagHelper(IHtmlGenerator generator) : base(generator)
+    {
+    }
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
+      //await base.ProcessAsync(context, output);
       output.TagName = HtmlElements.Label;
 
       var labelWrapperOpening = string.Format("<{0} class=\"{1}\">", HtmlElements.H1, CssClasses.NhsLabelWrapper);
@@ -21,39 +29,39 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Label
       switch (LabelType)
       {
         case LabelType.Bold:
-          ClassesToPrepend.Add(CssClasses.NhsUkLabelBold);
+          Helper.ClassesToPrepend.Add(CssClasses.NhsUkLabelBold);
           break;
         case LabelType.Medium:
-          ClassesToPrepend.Add(CssClasses.NhsUkLabelMedium);
+          Helper.ClassesToPrepend.Add(CssClasses.NhsUkLabelMedium);
           break;
         case LabelType.Large:
-          ClassesToPrepend.Add(CssClasses.NhsUkLabelLarge);
+          Helper.ClassesToPrepend.Add(CssClasses.NhsUkLabelLarge);
           break;
         case LabelType.Checkboxes:
-          ClassesToPrepend.Add(CssClasses.NhsUkLabelCheckboxes);
+          Helper.ClassesToPrepend.Add(CssClasses.NhsUkLabelCheckboxes);
           break;
         case LabelType.Radios:
-          ClassesToPrepend.Add(CssClasses.NhsUkLabelRadios);
+          Helper.ClassesToPrepend.Add(CssClasses.NhsUkLabelRadios);
           break;
         case LabelType.PageHeading:
           output.PreElement.SetHtmlContent(labelWrapperOpening);
-          ClassesToPrepend.Add(CssClasses.NhsUkLabelPageHeader);
+          Helper.ClassesToPrepend.Add(CssClasses.NhsUkLabelPageHeader);
           output.PostElement.SetHtmlContent(labelWrapperClosing);
           break;
         case LabelType.Standard:
-          ClassesToPrepend.Add(CssClasses.NhsUkLabel);
+          Helper.ClassesToPrepend.Add(CssClasses.NhsUkLabel);
           break;
         case LabelType.Date:
-          ClassesToPrepend.Add(CssClasses.NhsUkLabelDate);
+          Helper.ClassesToPrepend.Add(CssClasses.NhsUkLabelDate);
           break;
         default:
-          ClassesToPrepend.Add(CssClasses.NhsUkLabel);
+          Helper.ClassesToPrepend.Add(CssClasses.NhsUkLabel);
           break;
       }
 
       var content = (await output.GetChildContentAsync()).GetContent();
       output.Content.SetHtmlContent(content);
-      UpdateClasses(output);
+      Helper.UpdateClasses(output, Classes);
     }
   }
 }

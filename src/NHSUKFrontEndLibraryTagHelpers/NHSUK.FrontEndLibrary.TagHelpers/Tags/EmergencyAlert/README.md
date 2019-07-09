@@ -1,7 +1,5 @@
 ﻿# Emergency alert
 
-To discuss or contribute to this component, visit the [GitHub issue for this component]().
-
 ## Quick start example
 
 [Preview the emergency alert component](https://dotnetcorefelpoc.azurewebsites.net/components/emergency-alert)

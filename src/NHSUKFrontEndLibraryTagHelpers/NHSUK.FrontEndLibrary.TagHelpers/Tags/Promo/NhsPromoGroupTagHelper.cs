@@ -12,6 +12,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Promo
 
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
+      base.Process(context, output);
       output.TagName = HtmlElements.Div;
       SetClassAttribute(output, CssClasses.NhsUkPromoGroup);
 

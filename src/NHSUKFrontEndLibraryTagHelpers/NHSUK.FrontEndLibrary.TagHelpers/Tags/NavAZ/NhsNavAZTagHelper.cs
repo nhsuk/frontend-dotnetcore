@@ -10,6 +10,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.NavAZ
   {
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
+      await base.ProcessAsync(context, output);
       output.TagName = HtmlElements.Nav;
       var content = (await output.GetChildContentAsync()).GetContent();
       ClassesToPrepend.Add(CssClasses.NhsUkNavAz);

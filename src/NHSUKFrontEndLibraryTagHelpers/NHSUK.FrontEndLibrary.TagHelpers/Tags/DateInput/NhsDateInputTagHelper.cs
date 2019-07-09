@@ -9,6 +9,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.DateInput
   {
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
+      base.Process(context, output);
       output.TagName = HtmlElements.Div;
       ClassesToPrepend.Add(CssClasses.NhsUkDateInput);
 

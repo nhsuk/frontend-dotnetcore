@@ -1,7 +1,5 @@
 ﻿# Nav A-Z
 
-To discuss or contribute to this component, visit the [GitHub issue for this component]().
-
 ## Quick start example
 
 [Preview the nav a-z component](https://dotnetcorefelpoc.azurewebsites.net/components/nav-a-z)

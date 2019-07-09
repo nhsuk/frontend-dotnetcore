@@ -25,6 +25,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Promo
     public PromoSize PromoSize { get; set; }
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
+      base.Process(context, output);
       _output = output;
       _context = context;
       _output.TagName = HtmlElements.Div;

@@ -37,6 +37,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Header
 
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
+      await base.ProcessAsync(context, output);
       _showNav = (await output.GetChildContentAsync()).GetContent().Contains(TagHelperNames.NhsHeaderNavItemTag);
       output.TagName = HtmlElements.Header;
       SetAttribute(output, HtmlAttributes.Role, HtmlAttributes.AttributeValues.Banner);

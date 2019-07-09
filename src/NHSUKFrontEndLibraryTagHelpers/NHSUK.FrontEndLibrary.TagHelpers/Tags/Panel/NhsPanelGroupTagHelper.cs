@@ -11,6 +11,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Panel
     public GridColumnWidth GridColumnWidth { get; set; }
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
+      base.Process(context, output);
       output.TagName = HtmlElements.Div;
       SetClassAttribute(output, CssClasses.NhsUkPanelGroup);
 

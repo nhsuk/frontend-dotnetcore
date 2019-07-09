@@ -9,6 +9,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.DoDontList
   {
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
+      await base.ProcessAsync(context, output);
       var parentType = (DoDontListType)context.Items["ParentType"];
 
       var content = (await output.GetChildContentAsync()).GetContent();

@@ -18,6 +18,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.CareCard
 
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
+      await base.ProcessAsync(context, output);
       output.TagName = HtmlElements.Div;
 
       switch (CareCardType)

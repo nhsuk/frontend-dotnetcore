@@ -1,12 +1,10 @@
 ﻿# Promo
 
-To discuss or contribute to this component, visit the [GitHub issue for this component](https://github.com/nhsuk/nhsuk-frontend/issues/176).
-
 ## Quick start examples
 
 ### Promo
 
-[Preview the promo component]()
+[Preview the promo component](https://dotnetcorefelpoc.azurewebsites.net/components/promo)
 
 #### HTML markup
 
@@ -26,15 +24,13 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 ```
 <nhs-promo nhs-promo-size="Standard" href="https://www.nhs.uk"
            title-text="Save a life: give blood" description-text="Please register today. Donating blood is easy, and saves lives."></nhs-promo>
-
-
 ```
 
 ---
 
 ### Promo with image
 
-[Preview the promo with image component]()
+[Preview the promo with image component](https://dotnetcorefelpoc.azurewebsites.net/components/promo-image)
 
 #### HTML markup
 
@@ -62,7 +58,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ### Promo with no description
 
-[Preview the promo with no description component]()
+[Preview the promo with no description component](https://dotnetcorefelpoc.azurewebsites.net/components/promo-no-description)
 
 #### HTML markup
 
@@ -87,7 +83,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ### Small promo
 
-[Preview the small promo component]()
+[Preview the small promo component](https://dotnetcorefelpoc.azurewebsites.net/components/promo-small)
 
 #### HTML markup
 
@@ -114,7 +110,7 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ### Promo group
 
-[Preview the promo group component]()
+[Preview the promo group component](https://dotnetcorefelpoc.azurewebsites.net/components/promo-group)
 
 #### HTML markup
 

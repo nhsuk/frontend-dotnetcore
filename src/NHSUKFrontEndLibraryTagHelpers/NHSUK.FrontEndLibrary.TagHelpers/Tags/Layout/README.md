@@ -1,7 +1,5 @@
 ﻿# Layout
 
-
-
 ### HTML markup
 
 ```html

@@ -17,6 +17,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Panel
     public PanelType PanelType { get; set; }
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
+      await base.ProcessAsync(context, output);
       _output = output;
       _context = context;
       _output.TagName = HtmlElements.Div;

@@ -24,6 +24,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Pagination
 
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
+      base.Process(context, output);
       _output = output;
       _output.TagName = HtmlElements.Nav;
       ClassesToPrepend.Add(CssClasses.NhsUkPagination);

@@ -12,6 +12,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.TextArea
 
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
+      base.Process(context, output);
       output.TagName = HtmlElements.TextArea;
 
       switch (TextAreaType)
