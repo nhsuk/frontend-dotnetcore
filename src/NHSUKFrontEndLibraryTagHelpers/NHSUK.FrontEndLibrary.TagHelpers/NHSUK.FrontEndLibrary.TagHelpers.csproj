@@ -9,7 +9,7 @@
     <Copyright>NHS Digital</Copyright>
     <PackageTags>nhs-uk nhs-digital nhsuk-frontend taghelpers</PackageTags>
     <PackageReleaseNotes>A cross-platform base package of Razor Tag Helper for Dotnet Core. To be used in conjunction with the NHS.UK Front End Library.</PackageReleaseNotes>
-    <Version>1.0.3-alpha</Version>
+    <Version>1.0.4-alpha</Version>
     <PackageId>NHSUK.FrontEndLibrary.TagHelpers</PackageId>
     <Product>NHSUK FrontEnd Library TagHelpers</Product>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -26,11 +26,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Castle.Core" Version="4.4.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Razor" Version="2.2.0" />
-    <PackageReference Include="System.CodeDom" Version="4.5.0" />
   </ItemGroup>
 
 </Project>

@@ -22,7 +22,7 @@ Find out more about the review date component and when to use it in the [NHS dig
 ### Taghelper markup
 
 ```
-
+<nhs-review-date last-review="12 February 2016" next-review="1 February 2019"></nhs-review-date>
 ```
 
 ### Taghelper attributes
@@ -31,6 +31,6 @@ The review date taghelper markup takes the following attributes:
 
 | Name                | Type     | Required  | Description  |
 | --------------------|----------|-----------|--------------|
-| **lastReview**      | string   | No        | The value of the last review date |
-| **nextReview**      | string   | No        | The value of the next review date |
+| **last-review**      | string   | No        | The value of the last review date |
+| **next-review**      | string   | No        | The value of the next review date |
 | **classes**         | string   | No        | Optional additional classes to add to the review date. Separate each class with a space. |

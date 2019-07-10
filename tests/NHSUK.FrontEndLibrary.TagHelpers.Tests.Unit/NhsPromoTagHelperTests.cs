@@ -9,7 +9,7 @@ using Xunit;
 
 namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
 {
-  public class NhsPromoTagHelperrTests
+  public class NhsPromoTagHelperTests
   {
     private readonly TagHelperOutput _tagHelperOutput;
     private TagHelperContext _tagHelperContext;
@@ -20,7 +20,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
     private static string imageUrl = "https://assets.nhs.uk/prod/images/S_1017_allergic-conjunctivitis_M15.2e16d0ba.fill-320x213.jpg";
     private readonly string _imageElement = string.Format("<img class=\"nhsuk-promo__img\" src=\"{0}\" alt=\"\">", imageUrl);
     private readonly string _descriptionElement = string.Format("<p class=\"nhsuk-promo__description\">{0}</p>", description);
-    public NhsPromoTagHelperrTests()
+    public NhsPromoTagHelperTests()
     {
       _tagHelper = new NhsPromoTagHelper { TitleText = titleText };
       _tagHelperContext = new TagHelperContext(

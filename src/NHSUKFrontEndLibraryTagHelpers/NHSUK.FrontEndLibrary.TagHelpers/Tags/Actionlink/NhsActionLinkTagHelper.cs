@@ -18,7 +18,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Actionlink
       output.TagName = HtmlElements.Div;
 
       var content = (await output.GetChildContentAsync()).GetContent();
-      output.Content.SetHtmlContent(content);
 
       output.Attributes.RemoveAll(HtmlAttributes.HRef);
 
