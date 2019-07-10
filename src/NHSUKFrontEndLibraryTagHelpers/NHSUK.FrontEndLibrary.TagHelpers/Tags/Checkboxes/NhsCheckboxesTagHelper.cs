@@ -9,6 +9,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Checkboxes
   {
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
+      base.Process(context, output);
       output.TagName = HtmlElements.Div;
       ClassesToPrepend.Add(CssClasses.NhsUkCheckboxes);
       output.TagMode = TagMode.StartTagAndEndTag;

@@ -1,7 +1,5 @@
 ﻿# Feedback banner
 
-To discuss or contribute to this component, visit the [GitHub issue for this component]().
-
 ## Dependencies
 
 For this component to work, you need to make sure you include the required JavaScript. You can either include the

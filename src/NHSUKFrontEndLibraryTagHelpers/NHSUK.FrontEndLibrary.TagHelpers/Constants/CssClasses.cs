@@ -2,8 +2,10 @@
 {
   public static class CssClasses
   {
+    public const string NhsUkSkipLink= "nhsuk-skip-link";
     public const string NhsUkPromo= "nhsuk-promo";
-    public static string NhsUkPromoSmall = NhsUkPromo + " nhsuk-promo--small";
+    public const string NhsUkPromoSmall = NhsUkPromo + " nhsuk-promo--small";
+    public const string NhsUkReviewDate= "nhsuk-review-date";
     public const string NhsUkGridRow = "nhsuk-grid-row";
     public const string NhsUkPromoGroup = NhsUkGridRow + " nhsuk-promo-group";
     public const string NhsUkPanelGroup = NhsUkGridRow + " nhsuk-panel-group";

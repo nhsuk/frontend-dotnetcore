@@ -21,6 +21,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Hero
 
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
+      await base.ProcessAsync(context, output);
       _output = output;
       _output.TagName = HtmlElements.Section;
 

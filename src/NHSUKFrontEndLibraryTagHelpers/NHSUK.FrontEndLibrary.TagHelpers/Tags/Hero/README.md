@@ -1,7 +1,5 @@
 ﻿# Hero
 
-To discuss or contribute to this component, visit the [GitHub issue for this component]().
-
 ## Quick start examples
 
 ### Hero with heading and content

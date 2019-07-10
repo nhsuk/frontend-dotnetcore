@@ -1,7 +1,5 @@
 ﻿# Checkboxes
 
-To discuss or contribute to this component, visit the [GitHub issue for this component]().
-
 ## Guidance
 
 Find out more about the checkboxes component and when to use it in the [NHS digital service manual](https://beta.nhs.uk/service-manual/styles-components-patterns/checkboxes).

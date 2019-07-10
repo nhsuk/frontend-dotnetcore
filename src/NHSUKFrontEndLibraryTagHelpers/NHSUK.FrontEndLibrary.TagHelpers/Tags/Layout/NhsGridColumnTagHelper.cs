@@ -12,6 +12,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Layout
 
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
+      base.Process(context, output);
       _tagHelperOutput = output;
       _tagHelperOutput.TagName = HtmlElements.Div;
 

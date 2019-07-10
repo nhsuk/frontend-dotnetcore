@@ -2,6 +2,8 @@
 {
   public static class TagHelperNames
   {
+    public const string NhsSkipLinkTag="nhs-skip-link";
+    public const string NhsReviewDateTag="nhs-review-date";
     public const string NhsPromoTag = "nhs-promo";
     public const string NhsPromoGroupTag = "nhs-promo-group";
     public const string NhsPanelGroupTag = "nhs-panel-group";

@@ -9,6 +9,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.BreadCrumb
   {
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
+      base.Process(context, output);
       output.TagName = HtmlElements.Ol;
       SetClassAttribute(output, CssClasses.NhsUkBreadcrumbList);
       output.TagMode = TagMode.StartTagAndEndTag;

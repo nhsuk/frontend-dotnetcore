@@ -14,6 +14,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.ContentList
     private TagBuilder _contentlistItem;
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
+      await base.ProcessAsync(context, output);
       var content = (await output.GetChildContentAsync()).GetContent();
 
       output.TagName = HtmlElements.Li;

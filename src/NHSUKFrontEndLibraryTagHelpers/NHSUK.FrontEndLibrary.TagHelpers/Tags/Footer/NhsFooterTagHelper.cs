@@ -14,6 +14,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Footer
 
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
+      await base.ProcessAsync(context, output);
       output.TagName = HtmlElements.Footer;
       var content = (await output.GetChildContentAsync()).GetContent();
 

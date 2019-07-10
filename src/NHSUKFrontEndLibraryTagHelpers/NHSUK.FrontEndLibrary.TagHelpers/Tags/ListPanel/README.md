@@ -1,7 +1,5 @@
 ﻿# List panel
 
-To discuss or contribute to this component, visit the [GitHub issue for this component]().
-
 ## Quick start example
 
 [Preview the list panel component](https://dotnetcorefelpoc.azurewebsites.net/components/list-panel)

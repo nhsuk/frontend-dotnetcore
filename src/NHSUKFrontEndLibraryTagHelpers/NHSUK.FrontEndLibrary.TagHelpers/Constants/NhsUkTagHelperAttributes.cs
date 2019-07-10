@@ -2,6 +2,8 @@
 {
   public static class NhsUkTagHelperAttributes
   {
+    public const string LastReview="last-review";
+    public const string NextReview="next-review";
     public const string PromoSize = "nhs-promo-size";
     public const string PanelType="nhs-panel-type";
     public const string PreviousUrl="previous-url";

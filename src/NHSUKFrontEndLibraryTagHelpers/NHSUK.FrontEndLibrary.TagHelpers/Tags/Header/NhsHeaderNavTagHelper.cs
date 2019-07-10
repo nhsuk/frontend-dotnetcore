@@ -9,6 +9,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Header
   {
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
+      base.Process(context, output);
       output.TagName = HtmlElements.Nav;
       SetClassAttribute(output, CssClasses.NhsUkHeaderNavigation);
       SetAttribute(output, HtmlAttributes.IdAttribute, "header-navigation");

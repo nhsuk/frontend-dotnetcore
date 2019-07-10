@@ -12,6 +12,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.DoDontList
     public DoDontListType DoDontListType { get; set; }
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
+      await base.ProcessAsync(context, output);
       string displayText;
       string listTickCross;
       context.Items["ParentType"] = DoDontListType;

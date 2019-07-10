@@ -7,8 +7,9 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Layout
   public class NhsMainWrapperTagHelper : NhsBaseTagHelper
   {
     public override void Process(TagHelperContext context, TagHelperOutput output)
-    {
-      output.TagName = HtmlElements.Main;
+    { 
+      base.Process(context, output);
+    output.TagName = HtmlElements.Main;
 
       ClassesToPrepend.Add(CssClasses.NhsUkMainWrapper);
       SetAttribute(output, HtmlAttributes.IdAttribute, HtmlAttributes.AttributeValues.MainContent);

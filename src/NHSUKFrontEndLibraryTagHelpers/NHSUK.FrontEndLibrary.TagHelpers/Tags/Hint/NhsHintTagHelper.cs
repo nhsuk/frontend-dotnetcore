@@ -13,6 +13,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Hint
 
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
+      await base.ProcessAsync(context, output);
       output.TagName = HtmlElements.Span;
 
       switch (HintType)
