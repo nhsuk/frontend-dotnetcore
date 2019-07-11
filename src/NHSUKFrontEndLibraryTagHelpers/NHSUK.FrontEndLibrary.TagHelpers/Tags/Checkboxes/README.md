@@ -342,4 +342,4 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 
 ---
 
-This component and documentation has been taken from [NHS.UK Frontend - Checkboxes component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/checkboxes) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Checkboxes component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/checkboxes) .

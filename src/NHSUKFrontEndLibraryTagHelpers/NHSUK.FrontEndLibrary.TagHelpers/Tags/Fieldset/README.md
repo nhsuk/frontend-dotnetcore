@@ -138,4 +138,4 @@ Find out more about the fieldset component and when to use it in the [NHS digita
 
 ---
 
-This component and documentation has been taken from [NHS.UK Frontend - Fieldset component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/fieldset) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Fieldset component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/fieldset) .

@@ -2,10 +2,18 @@
 {
   public static class CssClasses
   {
-    public const string NhsUkSkipLink= "nhsuk-skip-link";
-    public const string NhsUkPromo= "nhsuk-promo";
+    public const string NhsUkSummaryListRowKey = "nhsuk-summary-list__key";
+    public const string NhsUkSummaryListRowValue = "nhsuk-summary-list__value";
+    public const string NhsUkSummaryListRowActions = "nhsuk-summary-list__actions";
+    public const string NhsUkSummaryListRow = "nhsuk-summary-list__row";
+    public const string NhsUkSummaryList = "nhsuk-summary-list";
+    public const string NhsUkSummaryListWithoutBorder = NhsUkSummaryList + " nhsuk-summary-list--no-border";
+    public const string NhsUkSelect = "nhsuk-select";
+    public const string NhsUkSelectError = NhsUkSelect + " nhsuk-select--error";
+    public const string NhsUkSkipLink = "nhsuk-skip-link";
+    public const string NhsUkPromo = "nhsuk-promo";
     public const string NhsUkPromoSmall = NhsUkPromo + " nhsuk-promo--small";
-    public const string NhsUkReviewDate= "nhsuk-review-date";
+    public const string NhsUkReviewDate = "nhsuk-review-date";
     public const string NhsUkGridRow = "nhsuk-grid-row";
     public const string NhsUkPromoGroup = NhsUkGridRow + " nhsuk-promo-group";
     public const string NhsUkPanelGroup = NhsUkGridRow + " nhsuk-panel-group";

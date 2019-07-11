@@ -49,4 +49,4 @@ Find out more about the breadcrumb component and when to use it in the [NHS digi
 | **nhs-breadcrumb-backlink.href**              | string    | Yes       | Link of the current page. |
 | **classes**             | string   | No        | Optional additional classes to add to the breadcrumbs container. Separate each class with a space. |
 
-This component and documentation has been taken from [NHS.UK Frontend - Breadcrumb component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/breadcrumb) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Breadcrumb component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/breadcrumb) .

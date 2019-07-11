@@ -432,4 +432,4 @@ Find out more about the radios component and when to use it in the [NHS digital 
 | **classes**         | string   | No        | Optional additional classes to add to the radios container. Separate each class with a space. |
 
 
-This component and documentation has been taken from [NHS.UK Frontend - Radios component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/radios) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Radios component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/radios) .

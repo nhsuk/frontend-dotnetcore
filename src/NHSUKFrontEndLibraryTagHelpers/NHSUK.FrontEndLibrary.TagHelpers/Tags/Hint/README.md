@@ -32,4 +32,4 @@ The hint taghelper takes the following attributes:
 | **classes**             | string   | No        | Optional additional classes to add to the breadcrumbs container. Separate each class with a space. |
 | **id**                  | string   | No       | Optional id attribute to add to the hint span tag. |
 
-This component and documentation has been taken from [NHS.UK Frontend - Hint component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/hint) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Hint component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/hint) .

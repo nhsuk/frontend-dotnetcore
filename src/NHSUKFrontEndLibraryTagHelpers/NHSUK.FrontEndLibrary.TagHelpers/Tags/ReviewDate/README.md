@@ -6,7 +6,7 @@ Find out more about the review date component and when to use it in the [NHS dig
 
 ## Quick start example
 
-[Preview the review date component]()
+[Preview the review date component](https://dotnetcorefelpoc.azurewebsites.net/components/review-date)
 
 ### HTML markup
 

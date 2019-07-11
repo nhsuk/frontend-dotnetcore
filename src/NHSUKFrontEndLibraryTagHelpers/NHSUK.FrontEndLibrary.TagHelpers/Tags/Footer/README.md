@@ -89,4 +89,4 @@ The footer taghelper takes the following attributes:
 | **is-list-columns**      | bool   | No        | set to true for footer with list columns. |
 
 
-This component and documentation has been taken from [NHS.UK Frontend - Footer component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/footer) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Footer component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/footer) .

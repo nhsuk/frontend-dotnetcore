@@ -28,7 +28,14 @@ Find out more about the select component and when to use it in the [NHS digital 
 #### Taghelper markup
 
 ```
-
+<nhs-form-group nhs-form-group-type="Standard">
+  <nhs-label nhs-label-type="Standard" for="select-1">Label text goes here</nhs-label>
+  <nhs-select nhs-select-type="Standard" id="select-1" name="select-1">
+    <option value="1">NHS.UK frontend option 1</option>
+    <option value="2" selected>NHS.UK frontend option 2</option>
+    <option value="3" disabled>NHS.UK frontend option 3</option>
+  </nhs-select>
+</nhs-form-group>
 ```
 
 ---
@@ -61,7 +68,16 @@ Find out more about the select component and when to use it in the [NHS digital 
 #### Taghelper markup
 
 ```
-
+<nhs-form-group nhs-form-group-type="Error">
+  <nhs-label nhs-label-type="Standard" for="select-2">Label text goes here</nhs-label>
+  <nhs-hint nhs-hint-type="Standard" id="select-2-hint">Hint text goes here</nhs-hint>
+  <nhs-error-message id="select-2-error">Error message goes here</nhs-error-message>
+  <nhs-select nhs-select-type="Error" id="select-2" name="select-2" aria-describedby="select-2-hint select-2-error">
+    <option value="1">NHS.UK frontend option 1</option>
+    <option value="2">NHS.UK frontend option 2</option>
+    <option value="3">NHS.UK frontend option 3</option>
+  </nhs-select>
+</nhs-form-group>
 ```
 
 ---
@@ -72,17 +88,12 @@ The select taghelper markup takes the following attributes:
 
 | Name                | Type     | Required  | Description                 |
 | --------------------|----------|-----------|-----------------------------|
+| **nhs-form-group**           | Taghelper   | Yes        | The formgroup taghelper wrapper for the radios component.|
 | **id**              | string   | Yes       | The id for each select box. |
 | **name**            | string   | Yes       | The name of the select, which is submitted with the form data. |
-| **items**           | array	   | Yes       | Array of option items for the select. |
-| **item.value**      | string   | No        | Value for the option item. |
-| **item.text**       | string   | No        | Text for the option item. |
-| **item.selected**   | boolean  | No        | Sets the option as the selected. |
-| **item.disabled**   | boolean  | No        | Sets the option item as disabled. |
-| **item.attributes** | object   | No        | Any extra HTML attributes (for example data attributes) to the select option tag. |
-| **label**           | object   | Yes       | Optional label text or HTML by specifying value for either text or html keys. See [label](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/label) component. |
-| **hint**            | object   | No        | Arguments for the hint component (e.g. text). See [hint](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/hint) component. |
-| **errorMessage**    | object   | No        | Arguments for the errorMessage component (e.g. text). See [error message](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/error-message) component. |
+| **nhs-label**           | Taghelper   | No       | Optional label taghelper. See [label](https://github.com/nhsuk/frontend-dotnetcore/tree/master/src/NHSUKFrontEndLibraryTagHelpers/NHSUK.FrontEndLibrary.TagHelpers/Tags/Label) taghelper. |
+| **nhs-hint**            | Taghelper   | No        | The hint taghelper. See [hint](https://github.com/nhsuk/frontend-dotnetcore/tree/master/src/NHSUKFrontEndLibraryTagHelpers/NHSUK.FrontEndLibrary.TagHelpers/Tags/Hint) taghelper. |
+| **nhs-error-message**    | Tagheler   | No        | The errorMessage taghelper. See [error message](https://github.com/nhsuk/frontend-dotnetcore/tree/master/src/NHSUKFrontEndLibraryTagHelpers/NHSUK.FrontEndLibrary.TagHelpers/Tags/ErrorMessage) taghelper. |
 | **classes**         | string   | No        | Optional additional classes to add to the select component. Separate each class with a space. |
 
-This component and documentation has been taken from [NHS.UK Frontend - Select component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/select) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Select component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/select) .
