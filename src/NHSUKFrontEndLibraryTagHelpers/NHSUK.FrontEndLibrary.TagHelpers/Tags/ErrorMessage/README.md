@@ -29,4 +29,4 @@ The error message taghelper takes the following attributes:
 | --------------------------|----------|-----------|-------------------------|
 | **classes**             | string   | No        | Optional additional classes to add to the breadcrumbs container. Separate each class with a space. |
 
-This component and documentation has been taken from [NHS.UK Frontend - Error message component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/error-message) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Error message component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/error-message) .

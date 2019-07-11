@@ -2,6 +2,11 @@
 {
   public static class HtmlElements
   {
+    public const string Dt="dt";
+    public const string Dd = "dd";
+    public const string Dl="dl";
+    public const string Select="select";
+    public const string Option = "option";
     public const string Figure= "figure";
     public const string Section= "section ";
     public const string Details= "details ";

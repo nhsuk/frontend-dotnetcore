@@ -166,4 +166,4 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 | **classes**         | string   | No        | Optional additional classes add to the input taghelper. Separate each class with a space. |
 | **autocomplete**    | string   | No        | Attribute to [identify input purpose](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html), for instance "postal-code" or "username". See [Autofilling form controls: the autocomplete attribute](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill) for the full list of attributes that can be used. |
 
-This component and documentation has been taken from [NHS.UK Frontend - Input component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/input) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Input component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/input) .

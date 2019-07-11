@@ -2,6 +2,12 @@
 {
   public static class TagHelperNames
   {
+    public const string NhsSummaryListRowKeyTag="nhs-summary-list-row-key";
+    public const string NhsSummaryListRowValueTag = "nhs-summary-list-row-value";
+    public const string NhsSummaryListRowActionsTag = "nhs-summary-list-row-actions";
+    public const string NhsSummaryListRowTag="nhs-summary-list-row";
+    public const string NhsSummaryListTag="nhs-summary-list";
+    public const string NhsSelectTag="nhs-select";
     public const string NhsSkipLinkTag="nhs-skip-link";
     public const string NhsReviewDateTag="nhs-review-date";
     public const string NhsPromoTag = "nhs-promo";

@@ -55,4 +55,4 @@ role="alert" tabindex="-1" data-module="error-summary">
 | **classes**                   | string   | No        | Optional additional classes to add to the error-summary container. Separate each class with a space. |
 
 
-This component and documentation has been taken from [NHS.UK Frontend - Error summary component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/error-summary) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Error summary component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/error-summary) .

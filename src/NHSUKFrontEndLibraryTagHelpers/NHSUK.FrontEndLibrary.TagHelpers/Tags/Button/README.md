@@ -111,4 +111,4 @@ The button taghelper takes the following attributes:
 | **nhs-button-type**                | string   | Yes       | specifies the type of button e.g reverse, secondary, link, Standard  |
 | **classes**             | string   | No        | Optional additional classes to add to the breadcrumbs container. Separate each class with a space. |
 
-This component and documentation has been taken from [NHS.UK Frontend - Button component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/button) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Button component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/button) .

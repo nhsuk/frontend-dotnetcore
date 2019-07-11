@@ -17,7 +17,7 @@ Ensure the correct `id` value has been added to your main content for the skip l
 
 ## Quick start example
 
-[Preview the skip link component](l)
+[Preview the skip link component](https://dotnetcorefelpoc.azurewebsites.net/components/skip-link)
 
 ### HTML markup
 

@@ -74,4 +74,4 @@ The label taghelper takes the following attributes:
 | **nhs-label-type**                | string   | Yes       | specifies the type of label e.g bold, large, medium, Standard etc  |
 | **classes**             | string   | No        | Optional additional classes to add to the breadcrumbs container. Separate each class with a space. |
 
-This component and documentation has been taken from [NHS.UK Frontend - Label component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/label) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Label component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/label) .

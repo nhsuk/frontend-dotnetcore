@@ -359,4 +359,4 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 | **pattern**               | string   | No        | Attribute to [provide a regular expression pattern](https://www.w3.org/TR/html51/sec-forms.html#the-pattern-attribute), used to match allowed character combinations for the input value. |
 | **classes**               | string   | No        | Optional additional classes to add to the date-input container. Separate each class with a space. |
 
-This component and documentation has been taken from [NHS.UK Frontend - Date input component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/date-input) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Date input component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/date-input) .

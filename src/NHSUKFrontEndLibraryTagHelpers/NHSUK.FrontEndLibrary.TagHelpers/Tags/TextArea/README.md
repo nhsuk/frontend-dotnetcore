@@ -109,4 +109,4 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 | **nhs-text-area**           | Taghelper   | Yes        | representing the textarea control.|
 | **nhs-textarea-type**           | string   | Yes        | text area type e.g Standard, Error.|
 
-This component and documentation has been taken from [NHS.UK Frontend - Textarea component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/textarea) with a few minor adaptations.
+This component and documentation has been taken from [NHS.UK Frontend - Textarea component](https://github.com/nhsuk/nhsuk-frontend/tree/master/packages/components/textarea) .
