@@ -2,6 +2,13 @@
 {
   public static class CssClasses
   {
+    public const string NhsUkTableRow= "nhsuk-table__row";
+    public const string NhsUkTableBody= "nhsuk-table__body";
+    public const string NhsUkTableCell = "nhsuk-table__cell";
+    public const string NhsUkTableHeader = "nhsuk-table__header";
+    public const string NhsUkTableHead = "nhsuk-table__head";
+    public const string NhsUkTable = "nhsuk-table";
+    public const string NhsUkWarningCallout = "nhsuk-warning-callout";
     public const string NhsUkSummaryListRowKey = "nhsuk-summary-list__key";
     public const string NhsUkSummaryListRowValue = "nhsuk-summary-list__value";
     public const string NhsUkSummaryListRowActions = "nhsuk-summary-list__actions";

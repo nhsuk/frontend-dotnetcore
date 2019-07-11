@@ -4,7 +4,7 @@
 
 ### Summary list
 
-[Preview the summary list component]()
+[Preview the summary list component](https://dotnetcorefelpoc.azurewebsites.net/components/summary-list)
 
 #### HTML markup
 
@@ -110,7 +110,7 @@
 
 ### Summary list without actions
 
-[Preview the summary list without actions component]()
+[Preview the summary list without actions component](https://dotnetcorefelpoc.azurewebsites.net/components/summary-list-without-actions)
 
 #### HTML markup
 
@@ -189,7 +189,7 @@
 
 ### Summary list without border
 
-[Preview the summary list without border component]()
+[Preview the summary list without border component](https://dotnetcorefelpoc.azurewebsites.net/components/summary-list-without-border)
 
 #### HTML markup
 

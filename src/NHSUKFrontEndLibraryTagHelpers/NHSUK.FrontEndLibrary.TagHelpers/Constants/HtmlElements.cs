@@ -2,6 +2,12 @@
 {
   public static class HtmlElements
   {
+    public const string Tr="tr";
+    public const string Tbody="tbody";
+    public const string Th="th";
+    public const string Td = "td";
+    public const string Thead= "thead";
+    public const string Table="table";
     public const string Dt="dt";
     public const string Dd = "dd";
     public const string Dl="dl";

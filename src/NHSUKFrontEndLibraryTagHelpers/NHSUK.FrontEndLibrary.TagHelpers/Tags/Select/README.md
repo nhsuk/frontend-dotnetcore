@@ -8,7 +8,7 @@ Find out more about the select component and when to use it in the [NHS digital 
 
 ### Select
 
-[Preview the select component]()
+[Preview the select component](https://dotnetcorefelpoc.azurewebsites.net/components/select)
 
 #### HTML markup
 
@@ -42,7 +42,7 @@ Find out more about the select component and when to use it in the [NHS digital 
 
 ### Select with hint text and error message
 
-[Preview the select with hint text and error message component]()
+[Preview the select with hint text and error message component](https://dotnetcorefelpoc.azurewebsites.net/components/select-hint-error)
 
 #### HTML markup
 

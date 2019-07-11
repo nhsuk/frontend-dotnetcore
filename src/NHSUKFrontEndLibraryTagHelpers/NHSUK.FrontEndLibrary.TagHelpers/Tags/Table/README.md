@@ -1,7 +1,5 @@
 ﻿# Table
 
-To discuss or contribute to this component, visit the [GitHub issue for this component](https://github.com/nhsuk/nhsuk-frontend/issues/179).
-
 ## Guidance
 
 Find out more about the table component and when to use it in the [NHS digital service manual](https://beta.nhs.uk/service-manual/styles-components-patterns/table).
@@ -10,7 +8,7 @@ Find out more about the table component and when to use it in the [NHS digital s
 
 ### Simple table
 
-[Preview the table component](https://nhsuk.github.io/nhsuk-frontend/components/tables/index.html)
+[Preview the table component]()
 
 #### HTML markup
 
@@ -42,57 +40,36 @@ Find out more about the table component and when to use it in the [NHS digital s
 </div>
 ```
 
-#### Nunjucks macro
+#### Taghelper markup
 
-```html
-{% from 'components/tables/macro.njk' import table %}
-
-{{ table({
-  panel: false,
-  caption: "Skin symptoms and possible causes",
-  firstCellIsHeader: false,
-  head: [
-    {
-      text: "Skin symptoms"
-    },
-    {
-      text: "Possible cause"
-    }
-  ],
-  rows: [
-    [
-      {
-        text: "Blisters on lips or around the mouth"
-      },
-      {
-        text: "cold sores"
-      }
-    ],
-    [
-      {
-        text: "Itchy, dry, cracked, sore"
-      },
-      {
-        text: "eczema"
-      }
-    ],
-    [
-      {
-        text: "Itchy blisters"
-      },
-      {
-        text: "shingles, chickenpox"
-      }
-    ]
-  ]
-}) }}
+```
+<nhs-table caption="Skin symptoms and possible causes">
+  <nhs-table-head>
+    <nhs-table-item>Skin symptoms</nhs-table-item>
+    <nhs-table-item>Possible cause</nhs-table-item>
+  </nhs-table-head>
+  <nhs-table-body>
+    <nhs-table-body-row>
+      <nhs-table-item>Blisters on lips or around the mouth</nhs-table-item>
+      <nhs-table-item>cold sores</nhs-table-item>
+    </nhs-table-body-row>
+    <nhs-table-body-row>
+      <nhs-table-item>Itchy, dry, cracked, sore</nhs-table-item>
+      <nhs-table-item>eczema</nhs-table-item>
+    </nhs-table-body-row>
+    <nhs-table-body-row>
+      <nhs-table-item>Itchy blisters</nhs-table-item>
+      <nhs-table-item>shingles, chickenpox</nhs-table-item>
+    </nhs-table-body-row>
+  </nhs-table-body>
+</nhs-table>
 ```
 
 ---
 
 ### Table panel
 
-[Preview the table panel component](https://nhsuk.github.io/nhsuk-frontend/components/tables/tables-panel.html)
+[Preview the table panel component]()
 
 #### HTML markup
 
@@ -127,79 +104,42 @@ Find out more about the table component and when to use it in the [NHS digital s
 </div>
 ```
 
-#### Nunjucks macro
+#### Taghelper markup
 
-```html
-{% from 'components/tables/macro.njk' import table %}
+```
+<nhs-table is-with-panel="true" title-text="Conditions similar to impetigo" caption="Other possible causes of your symptoms">
+  <nhs-table-head>
+    <nhs-table-item>Symptoms</nhs-table-item>
+    <nhs-table-item>Possible cause</nhs-table-item>
+  </nhs-table-head>
+  <nhs-table-body>
+    <nhs-table-body-row>
+      <nhs-table-item>Blisters on lips or around the mouth</nhs-table-item>
+      <nhs-table-item>cold sores</nhs-table-item>
+    </nhs-table-body-row>
+    <nhs-table-body-row>
+      <nhs-table-item>Itchy, dry, cracked, sore</nhs-table-item>
+      <nhs-table-item>eczema</nhs-table-item>
+    </nhs-table-body-row>
+    <nhs-table-body-row>
+      <nhs-table-item>Itchy blisters</nhs-table-item>
+      <nhs-table-item>shingles, chickenpox</nhs-table-item>
+    </nhs-table-body-row>
+  </nhs-table-body>
+</nhs-table>
 
-{{ table({
-  panel: true,
-  heading: "Conditions similar to impetigo",
-  caption: "Other possible causes of your symptoms",
-  firstCellIsHeader: false,
-  head: [
-    {
-      text: "Symptoms"
-    },
-    {
-      text: "Possible cause"
-    }
-  ],
-  rows: [
-    [
-      {
-        text: "Blisters on lips or around the mouth"
-      },
-      {
-        text: "cold sores"
-      }
-    ],
-    [
-      {
-        text: "Itchy, dry, cracked, sore"
-      },
-      {
-        text: "eczema"
-      }
-    ],
-    [
-      {
-        text: "Itchy blisters"
-      },
-      {
-        text: "shingles, chickenpox"
-      }
-    ]
-  ]
-}) }}
 ```
 
 ---
 
-### Nunjucks arguments
+### Taghelper attributes
 
-The table Nunjucks macro takes the following arguments:
+The table taghelper markup takes the following attributes:
 
 | Name                   | Type       | Required  | Description  |
 | -----------------------|------------|-----------|--------------|
-| **rows**               | array      | Yes       | Array of table rows and cells. |
-| **rows.[].text (or) rows.[].html**  | string | Yes  | Text or HTML for cells in table rows. If `html` is specified, the `text` argument will be ignored. |
-| **rows.[].format**     | string     | No        | Specify format of a cell. Currently we only use "numeric". |
-| **rows.[].colspan**    | number     | No        | Specify how many columns a cell extends. |
-| **rows.[].rowspan**    | number     | No        | Specify how many rows a cell extends. |
-| **panel**              | boolean    | No        | If set to true, the table is rendered inside a [panel with a label](https://nhsuk.github.io/nhsuk-frontend/components/panel-with-label.html). |
-| **panelClasses**       | string     | No        | Optional additional classes to add to the panel containing the table. Separate each class with a space. |
-| **heading**            | string     | No        | Heading/label of the panel if the panel argument is set to true. |
-| **headingLevel** 	     | integer    | No 	      | Optional heading level for the heading. Default: 3. |
-| **tableClasses**       | string     | No        | Optional additional classes to add to the table. Separate each class with a space. |
-| **attributes**         | object     | No        | Any extra HTML attributes (for example data attributes) to add to the table. |
+| **nhs-table-body-row**               | Taghelper      | Yes       | Taghelper representing a table body row. |
+| **panel**              | boolean    | No        | If set to true, the table is rendered inside a panel with a label. |
+| **title-text**            | string     | No        | Heading/label of the panel if the panel argument is set to true. |
 | **caption**            | string     | No        | Optional caption for the table. |
-| **captionClasses**     | string     | No        | Optional additional classes to add to the table caption. Separate each class with a space. |
-| **head**               | array      | No        | Optional array of table head cells. |
-| **head.[].text or head.[].html**    | array  |  No  | Optional array of table head cells. If `html` is specified, the `text` argument will be ignored. |
-| **head.[].colspan**    | number     | No        | Specify how many columns a cell extends. |
-| **head.[].rowspan**    | number     | No        | Specify how many rows a cell extends. |
-| **head.[].format**     | string     | No        | Specify format of a cell. Currently we only use "numeric". |
-| **firstCellIsHeader**  | boolean    | No        | If set to true, first cell in table row will be a TH instead of a TD. |
-
-If you are using Nunjucks macros in production be aware that using `html` arguments, or ones ending with `html` can be a [security risk](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting). Read more about this in the [Nunjucks documentation](https://mozilla.github.io/nunjucks/api.html#user-defined-templates-warning).
+| **nhs-table-head**               | Taghelper      | No        | Optional table head cells. |

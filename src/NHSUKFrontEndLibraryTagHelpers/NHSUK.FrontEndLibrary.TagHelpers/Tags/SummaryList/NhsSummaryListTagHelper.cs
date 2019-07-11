@@ -4,6 +4,7 @@ using NHSUK.FrontEndLibrary.TagHelpers.Constants;
 namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.SummaryList
 {
   [HtmlTargetElement(TagHelperNames.NhsSummaryListTag)]
+  [RestrictChildren(TagHelperNames.NhsSummaryListRowTag)]
   public class NhsSummaryListTagHelper : NhsBaseTagHelper
   {
     [HtmlAttributeName(NhsUkTagHelperAttributes.IsWithBorder)]
