@@ -6,7 +6,7 @@ Find out more about the warning callout component and when to use it in the [NHS
 
 ## Quick start example
 
-[Preview the warning callout component]()
+[Preview the warning callout component](https://dotnetcorefelpoc.azurewebsites.net/components/warning-callout)
 
 ### HTML markup
 

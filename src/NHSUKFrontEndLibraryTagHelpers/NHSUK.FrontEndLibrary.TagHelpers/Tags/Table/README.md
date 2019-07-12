@@ -8,7 +8,7 @@ Find out more about the table component and when to use it in the [NHS digital s
 
 ### Simple table
 
-[Preview the table component]()
+[Preview the table component](https://dotnetcorefelpoc.azurewebsites.net/components/tables)
 
 #### HTML markup
 
@@ -69,7 +69,7 @@ Find out more about the table component and when to use it in the [NHS digital s
 
 ### Table panel
 
-[Preview the table panel component]()
+[Preview the table panel component](https://dotnetcorefelpoc.azurewebsites.net/components/tables-panel)
 
 #### HTML markup
 
@@ -139,7 +139,11 @@ The table taghelper markup takes the following attributes:
 | Name                   | Type       | Required  | Description  |
 | -----------------------|------------|-----------|--------------|
 | **nhs-table-body-row**               | Taghelper      | Yes       | Taghelper representing a table body row. |
-| **panel**              | boolean    | No        | If set to true, the table is rendered inside a panel with a label. |
+| **nhs-table-head**               | Taghelper      | No        | Optional table head. |
+| **nhs-table-item**               | Taghelper      | Yes        | Taghelper representing a table row cell. |
+| **nhs-table-body**               | Taghelper      | Yes        | Taghelper representing a table body. |
+| **nhs-table-body-row**               | Taghelper      | Yes        | Taghelper representing a table body row. |
+| **is-with-panel**              | boolean    | No        | If set to true, the table is rendered inside a panel with a label. |
 | **title-text**            | string     | No        | Heading/label of the panel if the panel argument is set to true. |
 | **caption**            | string     | No        | Optional caption for the table. |
-| **nhs-table-head**               | Taghelper      | No        | Optional table head cells. |
+| **nhs-table-item.cell-is-header**  | boolean    | No        | If set to true on nhs-table-item, first cell in table row will be a TH instead of a TD. |

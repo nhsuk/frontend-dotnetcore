@@ -2,6 +2,7 @@
 {
   public static class NhsUkTagHelperAttributes
   {
+    public const string CellIsHeader="cell-is-header";
     public const string IsWithPanel="is-with-panel";
     public const string IsWithBorder="is-without-border";
     public const string VisuallyHiddenText="visually-hidden-text";
