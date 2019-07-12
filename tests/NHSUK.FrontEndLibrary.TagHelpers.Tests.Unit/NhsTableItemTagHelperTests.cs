@@ -49,6 +49,15 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
     }
 
     [Fact]
+    public async Task ProcessAsync_Should_Set_TableBodyItem_CellIsHeader_TagName()
+    {
+      _tagHelper.CellIsHeader = true;
+      _tagHelperContext.Items["ParentType"] = TagHelperNames.NhsTableBodyRowTag;
+      await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
+      Assert.Equal(HtmlElements.Th, _tagHelperOutput.TagName);
+    }
+
+    [Fact]
     public async Task ProcessAsync_Should_Set_Content()
     {
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
