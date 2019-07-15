@@ -15,7 +15,7 @@
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
-  <nhs-label nhs-label-type="Standard" for="input-example">National insurance number</nhs-label>
+  <label nhs-label-type="Standard" for="input-example">National insurance number</label>
   <nhs-input nhs-input-type="Standard" id="input-example" name="test-name"></nhs-input>
 </nhs-form-group>
 ```

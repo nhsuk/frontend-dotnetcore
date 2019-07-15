@@ -55,15 +55,15 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
     <nhs-checkboxes>
       <nhs-checkboxes-item>
         <nhs-input nhs-input-type="Checkboxes" id="nationality-1" name="nationality" value="british"></nhs-input>
-        <nhs-label nhs-label-type="Checkboxes" for="nationality-1">British</nhs-label>
+        <label nhs-label-type="Checkboxes" for="nationality-1">British</label>
       </nhs-checkboxes-item>
       <nhs-checkboxes-item>
         <nhs-input nhs-input-type="Checkboxes" id="nationality-2" name="nationality" value="irish"></nhs-input>
-        <nhs-label nhs-label-type="Checkboxes" for="nationality-2">Irish</nhs-label>
+        <label nhs-label-type="Checkboxes" for="nationality-2">Irish</label>
       </nhs-checkboxes-item>
       <nhs-checkboxes-item>
         <nhs-input nhs-input-type="Checkboxes" id="nationality-3" name="nationality" value="other"></nhs-input>
-        <nhs-label nhs-label-type="Checkboxes" for="nationality-3">citizen of another country</nhs-label>
+        <label nhs-label-type="Checkboxes" for="nationality-3">citizen of another country</label>
       </nhs-checkboxes-item>
     </nhs-checkboxes>
   </nhs-fieldset>
@@ -123,12 +123,12 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
     <nhs-checkboxes>
       <nhs-checkboxes-item>
         <nhs-input nhs-input-type="Checkboxes" id="government-gateway" name="gateway" value="gov-gateway" aria-describedby="government-gateway-item-hint"></nhs-input>
-        <nhs-label nhs-label-type="Checkboxes" for="government-gateway">Sign in with Government Gateway</nhs-label>
+        <label nhs-label-type="Checkboxes" for="government-gateway">Sign in with Government Gateway</label>
         <nhs-hint nhs-hint-type="Checkboxes" id="government-gateway-item-hint">You’ll have a user ID if you’ve registered for Self Assessment or filed a tax return online before.</nhs-hint>
       </nhs-checkboxes-item>
       <nhs-checkboxes-item>
         <nhs-input nhs-input-type="Checkboxes" id="nhsuk-login" name="verify" value="nhsuk-verify" aria-describedby="nhsuk-login-item-hint"></nhs-input>
-        <nhs-label nhs-label-type="Checkboxes" for="nhsuk-login">Sign in with NHS.UK login</nhs-label>
+        <label nhs-label-type="Checkboxes" for="nhsuk-login">Sign in with NHS.UK login</label>
         <nhs-hint nhs-hint-type="Checkboxes" id="nhsuk-login-item-hint">You’ll have an account if you’ve already proved your identity with either Barclays, CitizenSafe, Digidentity, Experian, Post Office, Royal Mail or SecureIdentity.</nhs-hint>
       </nhs-checkboxes-item>
     </nhs-checkboxes>
@@ -176,15 +176,15 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
   <nhs-checkboxes>
     <nhs-checkboxes-item>
       <nhs-input nhs-input-type="Checkboxes" id="colours-1" name="colours" value="red"></nhs-input>
-      <nhs-label nhs-label-type="Checkboxes" for="colours-1">Red</nhs-label>
+      <label nhs-label-type="Checkboxes" for="colours-1">Red</label>
     </nhs-checkboxes-item>
     <nhs-checkboxes-item>
       <nhs-input nhs-input-type="Checkboxes" id="colours-2" name="colours" value="green"></nhs-input>
-      <nhs-label nhs-label-type="Checkboxes" for="colours-2">Green</nhs-label>
+      <label nhs-label-type="Checkboxes" for="colours-2">Green</label>
     </nhs-checkboxes-item>
     <nhs-checkboxes-item>
       <nhs-input nhs-input-type="Checkboxes" id="colours-3" name="colours" value="blue" disabled></nhs-input>
-      <nhs-label nhs-label-type="Checkboxes" for="colours-3">Blue</nhs-label>
+      <label nhs-label-type="Checkboxes" for="colours-3">Blue</label>
     </nhs-checkboxes-item>
   </nhs-checkboxes>
 </nhs-form-group>
@@ -245,15 +245,15 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
     <nhs-checkboxes>
       <nhs-checkboxes-item>
         <nhs-input nhs-input-type="Checkboxes" id="waste-1" name="waste" value="animal"></nhs-input>
-        <nhs-label nhs-label-type="Checkboxes" for="waste-1">Waste from animal carcasses</nhs-label>
+        <label nhs-label-type="Checkboxes" for="waste-1">Waste from animal carcasses</label>
       </nhs-checkboxes-item>
       <nhs-checkboxes-item>
         <nhs-input nhs-input-type="Checkboxes" id="waste-2" name="waste" value="mines"></nhs-input>
-        <nhs-label nhs-label-type="Checkboxes" for="waste-2">Waste from mines or quarries</nhs-label>
+        <label nhs-label-type="Checkboxes" for="waste-2">Waste from mines or quarries</label>
       </nhs-checkboxes-item>
       <nhs-checkboxes-item>
         <nhs-input nhs-input-type="Checkboxes" id="waste-3" name="waste" value="farm"></nhs-input>
-        <nhs-label nhs-label-type="Checkboxes" for="waste-3">Farm or agricultural waste</nhs-label>
+        <label nhs-label-type="Checkboxes" for="waste-3">Farm or agricultural waste</label>
       </nhs-checkboxes-item>
     </nhs-checkboxes>
   </nhs-fieldset>
@@ -311,15 +311,15 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
     <nhs-checkboxes>
       <nhs-checkboxes-item>
         <nhs-input nhs-input-type="Checkboxes" id="waste-1" name="waste" value="animal"></nhs-input>
-        <nhs-label nhs-label-type="Checkboxes" for="waste-1">Waste from animal carcasses</nhs-label>
+        <label nhs-label-type="Checkboxes" for="waste-1">Waste from animal carcasses</label>
       </nhs-checkboxes-item>
       <nhs-checkboxes-item>
         <nhs-input nhs-input-type="Checkboxes" id="waste-2" name="waste" value="mines"></nhs-input>
-        <nhs-label nhs-label-type="Checkboxes" for="waste-2">Waste from mines or quarries</nhs-label>
+        <label nhs-label-type="Checkboxes" for="waste-2">Waste from mines or quarries</label>
       </nhs-checkboxes-item>
       <nhs-checkboxes-item>
         <nhs-input nhs-input-type="Checkboxes" id="waste-3" name="waste" value="farm"></nhs-input>
-        <nhs-label nhs-label-type="Checkboxes" for="waste-3">Farm or agricultural waste</nhs-label>
+        <label nhs-label-type="Checkboxes" for="waste-3">Farm or agricultural waste</label>
       </nhs-checkboxes-item>
     </nhs-checkboxes>
   </nhs-fieldset>

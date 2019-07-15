@@ -28,7 +28,7 @@ Find out more about the textarea component and when to use it in the [NHS digita
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
-  <nhs-label nhs-label-type="Standard" for="more-detail">Can you provide more detail?</nhs-label>
+  <label nhs-label-type="Standard" for="more-detail">Can you provide more detail?</label>
   <nhs-hint nhs-hint-type="Standard" id="more-detail-hint">Don't include personal or financial information, eg your National Insurance number or credit card details.</nhs-hint>
   <nhs-text-area nhs-textarea-type="Standard" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></nhs-text-area>
 </nhs-form-group>
@@ -59,7 +59,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
-  <nhs-label nhs-label-type="Standard" for="textarea-with-autocomplete-attribute">Full address</nhs-label>
+  <label nhs-label-type="Standard" for="textarea-with-autocomplete-attribute">Full address</label>
   <nhs-text-area nhs-textarea-type="Standard" id="textarea-with-autocomplete-attribute" name="address" rows="5" autocomplete="street-address"></nhs-text-area>
 </nhs-form-group>
 ```
@@ -87,7 +87,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ```
 <nhs-form-group nhs-form-group-type="Error">
-  <nhs-label nhs-label-type="Standard" for="no-ni-reason">Why can't you provide a National Insurance number?</nhs-label>
+  <label nhs-label-type="Standard" for="no-ni-reason">Why can't you provide a National Insurance number?</label>
   <nhs-error-message id="no-ni-reason-error"> You must provide an explanation</nhs-error-message>
   <nhs-text-area nhs-textarea-type="Error" id="no-ni-reason" name="no-ni-reason" rows="5" aria-describedby="no-ni-reason-error"></nhs-text-area>
 </nhs-form-group>

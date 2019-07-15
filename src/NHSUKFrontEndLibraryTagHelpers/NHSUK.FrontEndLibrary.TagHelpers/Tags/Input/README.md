@@ -25,7 +25,7 @@ Find out more about the input component and when to use it in the [NHS digital s
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
-  <nhs-label nhs-label-type="Standard" for="input-example">National insurance number</nhs-label>
+  <label nhs-label-type="Standard" for="input-example">National insurance number</label>
   <nhs-input nhs-input-type="Standard" id="input-example" name="test-name"></nhs-input>
 </nhs-form-group>
 ```
@@ -52,7 +52,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 #### Taghelper markup
 ```
 <nhs-form-group nhs-form-group-type="Standard">
-  <nhs-label nhs-label-type="Standard" for="input-with-autocomplete-attribute">Postcode</nhs-label>
+  <label nhs-label-type="Standard" for="input-with-autocomplete-attribute">Postcode</label>
   <nhs-input nhs-input-type="Standard" id="input-with-autocomplete-attribute" name="postcode" autocomplete="postal-code"></nhs-input>
 </nhs-form-group>
 ```
@@ -80,7 +80,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
-  <nhs-label nhs-label-type="Standard" for="input-with-hint-text">National insurance number</nhs-label>
+  <label nhs-label-type="Standard" for="input-with-hint-text">National insurance number</label>
   <nhs-hint nhs-hint-type="Standard" id="input-with-hint-text-hint">It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.</nhs-hint>
   <nhs-input nhs-input-type="Standard" id="input-with-hint-text" name="test-name-2" aria-describedby="input-with-hint-text-hint"></nhs-input>
 </nhs-form-group>
@@ -112,7 +112,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ```
 <nhs-form-group nhs-form-group-type="Error">
-  <nhs-label nhs-label-type="Standard" for="input-with-error-message">National insurance number</nhs-label>
+  <label nhs-label-type="Standard" for="input-with-error-message">National insurance number</label>
   <nhs-hint nhs-hint-type="Standard" id="input-with-error-message-hint">It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.</nhs-hint>
   <nhs-error-message id="input-with-error-message-error">Error message goes here</nhs-error-message>
   <nhs-input nhs-input-type="Standard" is-error-input="true" id="input-with-error-message" name="test-name-3" aria-describedby="input-with-error-message-hint input-with-error-message-error"></nhs-input>
@@ -142,7 +142,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
-  <nhs-label nhs-label-type="Standard" for="input-width-10">National insurance number</nhs-label>
+  <label nhs-label-type="Standard" for="input-width-10">National insurance number</label>
   <nhs-hint nhs-hint-type="Standard" id="input-width-10-hint">It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.</nhs-hint>
   <nhs-input nhs-input-type="Standard" fixed-width="Ten" id="input-width-10" name="test-width-10" aria-describedby="input-width-10-hint"></nhs-input>
 </nhs-form-group>
