@@ -32,13 +32,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
     }
 
     [Fact]
-    public async void ProcessAsync_Should_Set_Content()
-    {
-      await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(Text, _tagHelperOutput.Content.GetContent());
-    }
-
-    [Fact]
     public async void ProcessAsync_Should_Set_TagName()
     {
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);

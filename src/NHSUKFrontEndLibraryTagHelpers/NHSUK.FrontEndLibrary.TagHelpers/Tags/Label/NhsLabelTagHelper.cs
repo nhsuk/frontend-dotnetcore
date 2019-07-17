@@ -4,7 +4,7 @@ using NHSUK.FrontEndLibrary.TagHelpers.Constants;
 
 namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Label
 {
-  [HtmlTargetElement(TagHelperNames.NhsLabelTag,
+  [HtmlTargetElement("label",
     Attributes = NhsUkTagHelperAttributes.LabelType)]
   public class NhsLabelTagHelper : NhsBaseTagHelper
   {
@@ -52,8 +52,8 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Label
           break;
       }
 
-      var content = (await output.GetChildContentAsync()).GetContent();
-      output.Content.SetHtmlContent(content);
+      //var content = (await output.GetChildContentAsync()).GetContent();
+      //output.Content.SetHtmlContent(content);
       UpdateClasses(output);
     }
   }

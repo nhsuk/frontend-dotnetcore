@@ -17,7 +17,7 @@
 #### Taghelper markup
 
 ```
-<nhs-label nhs-label-type="Standard">National Insurance number</nhs-label>
+<label nhs-label-type="Standard">National Insurance number</label>
 
 ```
 
@@ -38,7 +38,7 @@
 #### Taghelper markup
 
 ```
-<nhs-label nhs-label-type="Bold">National Insurance number</nhs-label>
+<label nhs-label-type="Bold">National Insurance number</label>
 
 ```
 
@@ -61,7 +61,7 @@
 #### Taghelper markup
 
 ```
-<nhs-label nhs-label-type="PageHeading">National Insurance number</nhs-label>
+<label nhs-label-type="PageHeading">National Insurance number</label>
 ```
 
 ---
