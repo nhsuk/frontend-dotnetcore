@@ -11,16 +11,12 @@
     public const string Dt="dt";
     public const string Dd = "dd";
     public const string Dl="dl";
-    public const string Select="select";
     public const string Option = "option";
     public const string Figure= "figure";
     public const string Section= "section ";
     public const string Details= "details ";
-    public const string Label = "label";
-    public const string TextArea = "textarea";
     public const string Span = "span";
     public const string Div = "div";
-    public const string Input = "input";
     public const string H1 = "h1";
     public const string Ul = "ul";
     public const string Li = "li";
