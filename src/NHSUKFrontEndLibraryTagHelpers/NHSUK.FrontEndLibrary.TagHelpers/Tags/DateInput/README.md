@@ -56,6 +56,7 @@ Note: The `pattern` attribute is not valid HTML for inputs where the type attrib
 #### Taghelper markup
 
 ```
+
 <nhs-form-group nhs-form-group-type="Standard">
   <nhs-fieldset aria-describedby="dob-hint" role="group">
     <nhs-fieldset-legend nhs-legend-size="Standard">
@@ -66,19 +67,19 @@ Note: The `pattern` attribute is not valid HTML for inputs where the type attrib
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-day">Day</label>
-          <nhs-input nhs-input-type="Date" fixed-width="Two" id="dob-day" name="dob-day"></nhs-input>
+          <input nhs-input-type="Date" fixed-width="Two" id="dob-day" name="dob-day"/>
         </nhs-form-group>
       </nhs-date-input-item>
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-month">Month</label>
-          <nhs-input nhs-input-type="Date" fixed-width="Two" id="dob-month" name="dob-month"></nhs-input>
+          <input nhs-input-type="Date" fixed-width="Two" id="dob-month" name="dob-month"/>
         </nhs-form-group>
       </nhs-date-input-item>
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-year">Year</label>
-          <nhs-input nhs-input-type="Date" fixed-width="Four" id="dob-year" name="dob-year"></nhs-input>
+          <input nhs-input-type="Date" fixed-width="Four" id="dob-year" name="dob-year"/>
         </nhs-form-group>
       </nhs-date-input-item>
     </nhs-date-input>
@@ -142,6 +143,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 #### Taghelper markup
 
 ```
+ <nhs-form-group nhs-form-group-type="Standard">
   <nhs-fieldset aria-describedby="dob-with-autocomplete-attribute-hint" role="group">
     <nhs-fieldset-legend nhs-legend-size="Standard">
       What is your date of birth?
@@ -151,19 +153,19 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-with-autocomplete-attribute-day">Day</label>
-          <nhs-input nhs-input-type="Date" fixed-width="Two" id="dob-with-autocomplete-attribute-day" name="dob-with-autocomplete-day" autocomplete="bday-day"></nhs-input>
+          <input nhs-input-type="Date" fixed-width="Two" id="dob-with-autocomplete-attribute-day" name="dob-with-autocomplete-day" autocomplete="bday-day"/>
         </nhs-form-group>
       </nhs-date-input-item>
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-with-autocomplete-attribute-month">Month</label>
-          <nhs-input nhs-input-type="Date" fixed-width="Two" id="dob-month" name="dob-with-autocomplete-month" autocomplete="bday-month"></nhs-input>
+          <input nhs-input-type="Date" fixed-width="Two" id="dob-month" name="dob-with-autocomplete-month" autocomplete="bday-month"/>
         </nhs-form-group>
       </nhs-date-input-item>
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-with-autocomplete-attribute-year">Year</label>
-          <nhs-input nhs-input-type="Date" fixed-width="Four" id="dob-year" name="dob-with-autocomplete-year" autocomplete="bday-year"></nhs-input>
+          <input nhs-input-type="Date" fixed-width="Four" id="dob-year" name="dob-with-autocomplete-year" autocomplete="bday-year"/>
         </nhs-form-group>
       </nhs-date-input-item>
     </nhs-date-input>
@@ -235,24 +237,28 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-errors-day">Day</label>
-          <nhs-input nhs-input-type="Date" fixed-width="Two" is-error-input="true" id="dob-errors-day" name="day"></nhs-input>
+          <input nhs-input-type="Date" fixed-width="Two" is-error-input="true" id="dob-errors-day" name="day"/>
         </nhs-form-group>
       </nhs-date-input-item>
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-errors-month">Month</label>
-          <nhs-input nhs-input-type="Date" fixed-width="Two" is-error-input="true" id="dob-errors-month" name="month"></nhs-input>
+          <input nhs-input-type="Date" fixed-width="Two" is-error-input="true" id="dob-errors-month" name="month"/>
         </nhs-form-group>
       </nhs-date-input-item>
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-errors-year">Year</label>
-          <nhs-input nhs-input-type="Date" fixed-width="Four" is-error-input="true" id="dob-errors-year" name="year"></nhs-input>
+          <input nhs-input-type="Date" fixed-width="Four" is-error-input="true" id="dob-errors-year" name="year"/>
         </nhs-form-group>
       </nhs-date-input-item>
     </nhs-date-input>
   </nhs-fieldset>
 </nhs-form-group>
+
+
+
+
 
 ```
 
@@ -320,24 +326,26 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-day-error-day">Day</label>
-          <nhs-input nhs-input-type="Date" fixed-width="Two" is-error-input="true" id="dob-day-error-day" name="dob-day-error-day"></nhs-input>
+          <input nhs-input-type="Date" fixed-width="Two" is-error-input="true" id="dob-day-error-day" name="dob-day-error-day"/>
         </nhs-form-group>
       </nhs-date-input-item>
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-errors-month">Month</label>
-          <nhs-input nhs-input-type="Date" fixed-width="Two" id="dob-day-error-month" name="dob-day-error-month"></nhs-input>
+          <input nhs-input-type="Date" fixed-width="Two" id="dob-day-error-month" name="dob-day-error-month"/>
         </nhs-form-group>
       </nhs-date-input-item>
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-errors-year">Year</label>
-          <nhs-input nhs-input-type="Date" fixed-width="Four" id="dob-day-error-year" name="dob-day-error-year"></nhs-input>
+          <input nhs-input-type="Date" fixed-width="Four" id="dob-day-error-year" name="dob-day-error-year"/>
         </nhs-form-group>
       </nhs-date-input-item>
     </nhs-date-input>
   </nhs-fieldset>
 </nhs-form-group>
+
+
 ```
 
 ---
@@ -349,8 +357,8 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 | **id**                    | string   | No        | Optional id. This is used for the main component and to compose id attribute for each item. |
 | **nhs-date-input-item**                 | Taghelper    | Yes       | A taghelper representing a date input item. |
 | **nhs-form-group**           | Taghelper   | Yes        | the formgroup wrapper for the input component.|
-| **nhs-input**           | Taghelper   | Yes        | representing for the input control.|
-| **nhs-label**           | Taghelper   | Yes        | The label taghelper.|
+| **input**           | Taghelper   | Yes        | representing for the input control.|
+| **label**           | Taghelper   | Yes        | The label taghelper.|
 | **nhs-hint**            | Taghelper   | No        | The hint taghelper. |
 | **nhs-error-message**    | Taghelper   | No        | The error message taghelper.|
 | **nhs-form-group**           | Taghelper   | Yes        | The formgroup wrapper taghelper.|
