@@ -109,21 +109,23 @@ Find out more about the fieldset component and when to use it in the [NHS digita
   </nhs-fieldset-legend>
   <nhs-form-group nhs-form-group-type="Standard">
     <label nhs-label-type="Standard" for="input-address1">Address line 1</label>
-    <nhs-input nhs-input-type="Standard" id="input-address1" name="address1" type="text"></nhs-input>
+    <input nhs-input-type="Standard" id="input-address1" name="address1" type="text"/>
   </nhs-form-group>
   <nhs-form-group nhs-form-group-type="Standard">
     <label nhs-label-type="Standard" for="input-address2">Address line 2</label>
-    <nhs-input nhs-input-type="Standard" id="input-address2" name="address2" type="text"></nhs-input>
+    <input nhs-input-type="Standard" id="input-address2" name="address2" type="text"/>
   </nhs-form-group>
   <nhs-form-group nhs-form-group-type="Standard">
     <label nhs-label-type="Standard" for="input-town-city">Town or city</label>
-    <nhs-input nhs-input-type="Standard" id="input-town-city" name="town" type="text"></nhs-input>
+    <input nhs-input-type="Standard" id="input-town-city" name="town" type="text"/>
   </nhs-form-group>
   <nhs-form-group nhs-form-group-type="Standard">
     <label nhs-label-type="Standard" for="input-county">County</label>
-    <nhs-input nhs-input-type="Standard" id="input-county" name="county" type="text"></nhs-input>
+    <input nhs-input-type="Standard" id="input-county" name="county" type="text"/>
   </nhs-form-group>
 </nhs-fieldset>
+
+
 
 ```
 ### Taghelper attributes
