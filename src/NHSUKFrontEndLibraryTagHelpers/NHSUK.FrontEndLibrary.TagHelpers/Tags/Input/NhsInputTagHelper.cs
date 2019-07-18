@@ -3,7 +3,7 @@ using NHSUK.FrontEndLibrary.TagHelpers.Constants;
 
 namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Input
 {
-  [HtmlTargetElement(TagHelperNames.NhsInputTag, Attributes = NhsUkTagHelperAttributes.InputType)]
+  [HtmlTargetElement("input", Attributes = NhsUkTagHelperAttributes.InputType)]
   public class NhsInputTagHelper : NhsBaseTagHelper
   {
     [HtmlAttributeName(NhsUkTagHelperAttributes.InputType)]
@@ -18,7 +18,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Input
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
       base.Process(context, output);
-      output.TagName = HtmlElements.Input;
      
       switch (InputType)
       {
@@ -49,8 +48,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Input
       {
         ClassesToPrepend.Add(CssClasses.NhsUkInputErrorMessage);
       }
-
-      output.TagMode = TagMode.StartTagOnly;
 
       AddWidthClasses();
       UpdateClasses(output);

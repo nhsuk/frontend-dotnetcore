@@ -45,7 +45,6 @@
     public const string NhsContainerTag = "nhs-width-container";
     public const string NhsMainWrapperTag = "nhs-main-wrapper";
     public const string NhsGridRowTag = "nhs-grid-row";
-    public const string NhsInputTag = "nhs-input";
     public const string NhsBackLinkTag = "nhs-back-link";
     public const string NhsErrorMessageTag = "nhs-error-message";
     public const string NhsActionLinkTag = "nhs-action-link";

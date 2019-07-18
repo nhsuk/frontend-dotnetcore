@@ -52,8 +52,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Label
           break;
       }
 
-      //var content = (await output.GetChildContentAsync()).GetContent();
-      //output.Content.SetHtmlContent(content);
       UpdateClasses(output);
     }
   }

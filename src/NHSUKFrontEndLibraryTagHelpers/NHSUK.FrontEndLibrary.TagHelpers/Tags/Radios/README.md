@@ -48,11 +48,11 @@ Find out more about the radios component and when to use it in the [NHS digital 
     <nhs-hint nhs-hint-type="Standard" id="example-hint">This includes changing your last name or spelling your name differently.</nhs-hint>
     <nhs-radios nhs-radios-type="Standard">
       <nhs-radios-item>
-        <nhs-input nhs-input-type="Radios" id="example-1" name="example" value="yes"></nhs-input>
+        <input nhs-input-type="Radios" id="example-1" name="example" value="yes"/>
         <label nhs-label-type="Radios" for="example-1">Yes</label>
       </nhs-radios-item>
       <nhs-radios-item>
-        <nhs-input nhs-input-type="Radios" id="example-2" name="example" value="no" checked></nhs-input>
+        <input nhs-input-type="Radios" id="example-2" name="example" value="no" checked/>
         <label nhs-label-type="Radios" for="example-2">No</label>
       </nhs-radios-item>
     </nhs-radios>
@@ -104,11 +104,11 @@ Find out more about the radios component and when to use it in the [NHS digital 
     <nhs-hint nhs-hint-type="Standard" id="example-hint">This includes changing your last name or spelling your name differently.</nhs-hint>
     <nhs-radios nhs-radios-type="Inline">
       <nhs-radios-item>
-        <nhs-input nhs-input-type="Radios" id="example-1" name="example" value="yes"></nhs-input>
+        <input nhs-input-type="Radios" id="example-1" name="example" value="yes"/>
         <label nhs-label-type="Radios" for="example-1">Yes</label>
       </nhs-radios-item>
       <nhs-radios-item>
-        <nhs-input nhs-input-type="Radios" id="example-2" name="example" value="no" checked></nhs-input>
+        <input nhs-input-type="Radios" id="example-2" name="example" value="no" checked/>
         <label nhs-label-type="Radios" for="example-2">No</label>
       </nhs-radios-item>
     </nhs-radios>
@@ -160,11 +160,11 @@ Find out more about the radios component and when to use it in the [NHS digital 
     <nhs-hint nhs-hint-type="Standard" id="example-hint">This includes changing your last name or spelling your name differently.</nhs-hint>
     <nhs-radios nhs-radios-type="Standard">
       <nhs-radios-item>
-        <nhs-input nhs-input-type="Radios" id="example-disabled-1" name="example-disabled" value="yes" disabled></nhs-input>
+        <input nhs-input-type="Radios" id="example-disabled-1" name="example-disabled" value="yes" disabled/>
         <label nhs-label-type="Radios" for="example-disabled-1">Yes</label>
       </nhs-radios-item>
       <nhs-radios-item>
-        <nhs-input nhs-input-type="Radios" id="example-disabled-2" name="example-disabled" value="no" disabled></nhs-input>
+        <input nhs-input-type="Radios" id="example-disabled-2" name="example-disabled" value="no" disabled/>
         <label nhs-label-type="Radios" for="example-disabled-2">No</label>
       </nhs-radios-item>
     </nhs-radios>
@@ -219,16 +219,16 @@ Find out more about the radios component and when to use it in the [NHS digital 
     <nhs-fieldset-legend nhs-legend-size="Standard"> How do you want to sign in?</nhs-fieldset-legend>
     <nhs-radios nhs-radios-type="Standard">
       <nhs-radios-item>
-        <nhs-input nhs-input-type="Radios" id="example-divider-1" name="example" value="government-gateway"></nhs-input>
+        <input nhs-input-type="Radios" id="example-divider-1" name="example" value="government-gateway"/>
         <label nhs-label-type="Radios" for="example-divider-1">Use Government Gateway</label>
       </nhs-radios-item>
       <nhs-radios-item>
-        <nhs-input nhs-input-type="Radios" id="example-divider-2" name="example" value="nhsuk-login"></nhs-input>
+        <input nhs-input-type="Radios" id="example-divider-2" name="example" value="nhsuk-login"/>
         <label nhs-label-type="Radios" for="example-divider-2">Use NHS.UK login</label>
       </nhs-radios-item>
       <nhs-radios-divider>or</nhs-radios-divider>
       <nhs-radios-item>
-        <nhs-input nhs-input-type="Radios" id="example-divider-4" name="example" value="create-account"></nhs-input>
+        <input nhs-input-type="Radios" id="example-divider-4" name="example" value="create-account"/>
         <label nhs-label-type="Radios" for="example-divider-4">Create an account</label>
       </nhs-radios-item>
     </nhs-radios>
@@ -286,14 +286,14 @@ Find out more about the radios component and when to use it in the [NHS digital 
     </nhs-fieldset-legend>
     <nhs-radios nhs-radios-type="Standard">
       <nhs-radios-item>
-        <nhs-input nhs-input-type="Radios" id="gov-1" name="gov" value="gateway" aria-describedby="gov-1-item-hint"></nhs-input>
+        <input nhs-input-type="Radios" id="gov-1" name="gov" value="gateway" aria-describedby="gov-1-item-hint"/>
         <label nhs-label-type="Radios" for="gov-1">Sign in with Government Gateway</label>
         <nhs-hint nhs-hint-type="Radios" id="gov-1-item-hint">
           You'll have a user ID if you've registered for self-assessment or filed a tax return online before.
         </nhs-hint>
       </nhs-radios-item>
       <nhs-radios-item>
-        <nhs-input nhs-input-type="Radios" id="gov-2" name="gov" value="verify" aria-describedby="gov-2-item-hint"></nhs-input>
+        <input nhs-input-type="Radios" id="gov-2" name="gov" value="verify" aria-describedby="gov-2-item-hint"/>
         <label nhs-label-type="Radios" for="gov-2">Sign in with NHS.UK login</label>
         <nhs-hint nhs-hint-type="Radios" id="gov-2-item-hint">
           You’ll have an account if you’ve already proved your identity with either Barclays, CitizenSafe, Digidentity, Experian, Post Office, Royal Mail or SecureIdentity.
@@ -343,19 +343,20 @@ Find out more about the radios component and when to use it in the [NHS digital 
 <nhs-form-group nhs-form-group-type="Standard">
   <nhs-radios nhs-radios-type="Standard">
     <nhs-radios-item>
-      <nhs-input nhs-input-type="Radios" id="colours-1" name="colours" value="red"></nhs-input>
+      <input nhs-input-type="Radios" id="colours-1" name="colours" value="red"/>
       <label nhs-label-type="Radios" for="colours-1">Red</label>
     </nhs-radios-item>
     <nhs-radios-item>
-      <nhs-input nhs-input-type="Radios" id="colours-2" name="colours" value="green"></nhs-input>
+      <input nhs-input-type="Radios" id="colours-2" name="colours" value="green"/>
       <label nhs-label-type="Radios" for="colours-2">Green</label>
     </nhs-radios-item>
     <nhs-radios-item>
-      <nhs-input nhs-input-type="Radios" id="colours-3" name="colours" value="blue"></nhs-input>
+      <input nhs-input-type="Radios" id="colours-3" name="colours" value="blue"/>
       <label nhs-label-type="Radios" for="colours-3">Blue</label>
     </nhs-radios-item>
   </nhs-radios>
 </nhs-form-group>
+
 ```
 ---
 
@@ -405,11 +406,11 @@ Find out more about the radios component and when to use it in the [NHS digital 
     <nhs-error-message id="example-error">Please select an option</nhs-error-message>
     <nhs-radios nhs-radios-type="Standard">
       <nhs-radios-item>
-        <nhs-input nhs-input-type="Radios" id="example-1" name="example" value="yes"></nhs-input>
+        <input nhs-input-type="Radios" id="example-1" name="example" value="yes"/>
         <label nhs-label-type="Radios" for="example-1">Yes</label>
       </nhs-radios-item>
       <nhs-radios-item>
-        <nhs-input nhs-input-type="Radios" id="example-2" name="example" value="no" checked></nhs-input>
+        <input nhs-input-type="Radios" id="example-2" name="example" value="no" checked/>
         <label nhs-label-type="Radios" for="example-2">No</label>
       </nhs-radios-item>
     </nhs-radios>

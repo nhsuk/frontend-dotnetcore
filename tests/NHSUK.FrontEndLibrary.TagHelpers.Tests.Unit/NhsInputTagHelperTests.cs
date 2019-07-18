@@ -29,13 +29,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
          });
     }
 
-    [Fact]
-    public void Process_Should_Set_TagName()
-    {
-      _tagHelper.Process(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(HtmlElements.Input, _tagHelperOutput.TagName);
-    }
-
     [Theory]
     [InlineData(InputType.Standard)]
     [InlineData((InputType)(-1))]
@@ -149,11 +142,5 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
 
     }
 
-    [Fact]
-    public void Process_Should_Set_TagMode()
-    {
-      _tagHelper.Process(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(TagMode.StartTagOnly, _tagHelperOutput.TagMode);
-    }
   }
 }
