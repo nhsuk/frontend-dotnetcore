@@ -93,7 +93,7 @@ The select taghelper markup takes the following attributes:
 | **nhs-form-group**           | Taghelper   | Yes        | The formgroup taghelper wrapper for the radios component.|
 | **id**              | string   | Yes       | The id for each select box. |
 | **name**            | string   | Yes       | The name of the select, which is submitted with the form data. |
-| **nhs-label**           | Taghelper   | No       | Optional label taghelper. See [label](https://github.com/nhsuk/frontend-dotnetcore/tree/master/src/NHSUKFrontEndLibraryTagHelpers/NHSUK.FrontEndLibrary.TagHelpers/Tags/Label) taghelper. |
+| **label**           | Taghelper   | No       | Optional label taghelper. See [label](https://github.com/nhsuk/frontend-dotnetcore/tree/master/src/NHSUKFrontEndLibraryTagHelpers/NHSUK.FrontEndLibrary.TagHelpers/Tags/Label) taghelper. |
 | **nhs-hint**            | Taghelper   | No        | The hint taghelper. See [hint](https://github.com/nhsuk/frontend-dotnetcore/tree/master/src/NHSUKFrontEndLibraryTagHelpers/NHSUK.FrontEndLibrary.TagHelpers/Tags/Hint) taghelper. |
 | **nhs-error-message**    | Tagheler   | No        | The errorMessage taghelper. See [error message](https://github.com/nhsuk/frontend-dotnetcore/tree/master/src/NHSUKFrontEndLibraryTagHelpers/NHSUK.FrontEndLibrary.TagHelpers/Tags/ErrorMessage) taghelper. |
 | **classes**         | string   | No        | Optional additional classes to add to the select component. Separate each class with a space. |
