@@ -3,7 +3,7 @@ using NHSUK.FrontEndLibrary.TagHelpers.Constants;
 
 namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.TextArea
 {
-  [HtmlTargetElement(TagHelperNames.NhsTextAreaTag, 
+  [HtmlTargetElement("textarea", 
     Attributes = NhsUkTagHelperAttributes.TextAreaType)]
   public class NhsTextAreaTagHelper : NhsBaseTagHelper
   {
@@ -13,7 +13,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.TextArea
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
       base.Process(context, output);
-      output.TagName = HtmlElements.TextArea;
 
       switch (TextAreaType)
       {
@@ -27,8 +26,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.TextArea
           ClassesToPrepend.Add(CssClasses.NhsUkTextArea);
           break;
       }
-
-      output.TagMode = TagMode.StartTagAndEndTag;
 
       UpdateClasses(output);
     }

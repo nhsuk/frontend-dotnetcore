@@ -37,7 +37,6 @@
     public const string NhsDateInputItemTag = "nhs-date-input-item";
     public const string NhsDateInputTag = "nhs-date-input";
     public const string NhsListTag = "nhs-list";
-    public const string NhsTextAreaTag = "nhs-text-area";
     public const string NhsRadiosTag = "nhs-radios";
     public const string NhsRadiosItemTag = "nhs-radios-item";
     public const string NhsHintTag = "nhs-hint";
