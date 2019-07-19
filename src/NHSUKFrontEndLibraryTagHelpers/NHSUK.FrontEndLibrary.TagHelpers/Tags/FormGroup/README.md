@@ -16,7 +16,7 @@
 ```
 <nhs-form-group nhs-form-group-type="Standard">
   <label nhs-label-type="Standard" for="input-example">National insurance number</label>
-  <nhs-input nhs-input-type="Standard" id="input-example" name="test-name"></nhs-input>
+  <input nhs-input-type="Standard" id="input-example" name="test-name"/>
 </nhs-form-group>
 ```
 ### Taghelper attributes

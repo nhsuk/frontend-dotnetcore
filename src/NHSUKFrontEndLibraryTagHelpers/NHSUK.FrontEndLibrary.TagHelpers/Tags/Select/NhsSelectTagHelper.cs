@@ -4,7 +4,7 @@ using NHSUK.FrontEndLibrary.TagHelpers.Constants;
 
 namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Select
 {
-  [HtmlTargetElement(TagHelperNames.NhsSelectTag, Attributes = NhsUkTagHelperAttributes.SelectType)]
+  [HtmlTargetElement("select", Attributes = NhsUkTagHelperAttributes.SelectType)]
   [RestrictChildren(HtmlElements.Option)]
   public class NhsSelectTagHelper : NhsBaseTagHelper
   {
@@ -14,8 +14,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Select
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
       await base.ProcessAsync(context, output);
-      output.TagName = HtmlElements.Select;
-      var content = (await output.GetChildContentAsync()).GetContent();
 
       switch (SelectType)
       {
@@ -29,9 +27,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Select
           ClassesToPrepend.Add(CssClasses.NhsUkSelect);
           break;
       }
-
-      output.Content.SetHtmlContent(content);
-      output.TagMode = TagMode.StartTagAndEndTag;
 
       UpdateClasses(output);
     }

@@ -11,7 +11,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
   public class NhsSelectTagHelperTests
   {
     private readonly NhsSelectTagHelper _tagHelper;
-    private const string Content = "<option value=\"1\">NHS.UK frontend option 1</option>";
     private readonly TagHelperContext _tagHelperContext;
     private readonly TagHelperOutput _tagHelperOutput;
     public NhsSelectTagHelperTests()
@@ -28,22 +27,8 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
           {
             var tagHelperContent = new DefaultTagHelperContent();
 
-            return Task.FromResult(tagHelperContent.SetHtmlContent(Content));
+            return Task.FromResult<TagHelperContent>(tagHelperContent);
           });
-    }
-
-    [Fact]
-    public async void ProcessAsync_Should_Set_Content()
-    {
-      await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(Content, _tagHelperOutput.Content.GetContent());
-    }
-
-    [Fact]
-    public async void ProcessAsync_Should_Set_TagName()
-    {
-      await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(HtmlElements.Select, _tagHelperOutput.TagName);
     }
 
     [Theory]

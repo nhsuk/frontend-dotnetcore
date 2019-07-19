@@ -14,7 +14,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Label
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
       await base.ProcessAsync(context, output);
-      output.TagName = HtmlElements.Label;
 
       var labelWrapperOpening = string.Format("<{0} class=\"{1}\">", HtmlElements.H1, CssClasses.NhsLabelWrapper);
       var labelWrapperClosing = string.Format("</{0}", HtmlElements.H1);
@@ -52,8 +51,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Label
           break;
       }
 
-      //var content = (await output.GetChildContentAsync()).GetContent();
-      //output.Content.SetHtmlContent(content);
       UpdateClasses(output);
     }
   }

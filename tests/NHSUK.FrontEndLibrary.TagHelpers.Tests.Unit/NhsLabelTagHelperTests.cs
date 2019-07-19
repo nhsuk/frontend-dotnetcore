@@ -31,13 +31,6 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
           });
     }
 
-    [Fact]
-    public async void ProcessAsync_Should_Set_TagName()
-    {
-      await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(HtmlElements.Label, _tagHelperOutput.TagName);
-    }
-
     [Theory]
     [InlineData(LabelType.Standard)]
     [InlineData((LabelType)(-1))]

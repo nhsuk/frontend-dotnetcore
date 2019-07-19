@@ -29,13 +29,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
          });
     }
 
-    [Fact]
-    public void Process_Should_Set_TagName()
-    {
-      _tagHelper.Process(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(HtmlElements.TextArea, _tagHelperOutput.TagName);
-    }
-
+   
     [Theory]
     [InlineData(TextAreaType.Standard)]
     [InlineData((TextAreaType)(-1))]
@@ -54,11 +48,5 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
       Assert.Equal(CssClasses.NhsUkTextAreaError, _tagHelperOutput.Attributes[HtmlAttributes.ClassAttribute].Value);
     }
 
-    [Fact]
-    public void Process_Should_Set_TagMode()
-    {
-      _tagHelper.Process(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(TagMode.StartTagAndEndTag, _tagHelperOutput.TagMode);
-    }
   }
 }

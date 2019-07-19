@@ -30,12 +30,13 @@ Find out more about the select component and when to use it in the [NHS digital 
 ```
 <nhs-form-group nhs-form-group-type="Standard">
   <label nhs-label-type="Standard" for="select-1">Label text goes here</label>
-  <nhs-select nhs-select-type="Standard" id="select-1" name="select-1">
+  <select nhs-select-type="Standard" id="select-1" name="select-1">
     <option value="1">NHS.UK frontend option 1</option>
     <option value="2" selected>NHS.UK frontend option 2</option>
     <option value="3" disabled>NHS.UK frontend option 3</option>
-  </nhs-select>
+  </select>
 </nhs-form-group>
+
 ```
 
 ---
@@ -72,12 +73,13 @@ Find out more about the select component and when to use it in the [NHS digital 
   <label nhs-label-type="Standard" for="select-2">Label text goes here</label>
   <nhs-hint nhs-hint-type="Standard" id="select-2-hint">Hint text goes here</nhs-hint>
   <nhs-error-message id="select-2-error">Error message goes here</nhs-error-message>
-  <nhs-select nhs-select-type="Error" id="select-2" name="select-2" aria-describedby="select-2-hint select-2-error">
+  <select nhs-select-type="Error" id="select-2" name="select-2" aria-describedby="select-2-hint select-2-error">
     <option value="1">NHS.UK frontend option 1</option>
     <option value="2">NHS.UK frontend option 2</option>
     <option value="3">NHS.UK frontend option 3</option>
-  </nhs-select>
+  </select>
 </nhs-form-group>
+
 ```
 
 ---
@@ -91,7 +93,7 @@ The select taghelper markup takes the following attributes:
 | **nhs-form-group**           | Taghelper   | Yes        | The formgroup taghelper wrapper for the radios component.|
 | **id**              | string   | Yes       | The id for each select box. |
 | **name**            | string   | Yes       | The name of the select, which is submitted with the form data. |
-| **nhs-label**           | Taghelper   | No       | Optional label taghelper. See [label](https://github.com/nhsuk/frontend-dotnetcore/tree/master/src/NHSUKFrontEndLibraryTagHelpers/NHSUK.FrontEndLibrary.TagHelpers/Tags/Label) taghelper. |
+| **label**           | Taghelper   | No       | Optional label taghelper. See [label](https://github.com/nhsuk/frontend-dotnetcore/tree/master/src/NHSUKFrontEndLibraryTagHelpers/NHSUK.FrontEndLibrary.TagHelpers/Tags/Label) taghelper. |
 | **nhs-hint**            | Taghelper   | No        | The hint taghelper. See [hint](https://github.com/nhsuk/frontend-dotnetcore/tree/master/src/NHSUKFrontEndLibraryTagHelpers/NHSUK.FrontEndLibrary.TagHelpers/Tags/Hint) taghelper. |
 | **nhs-error-message**    | Tagheler   | No        | The errorMessage taghelper. See [error message](https://github.com/nhsuk/frontend-dotnetcore/tree/master/src/NHSUKFrontEndLibraryTagHelpers/NHSUK.FrontEndLibrary.TagHelpers/Tags/ErrorMessage) taghelper. |
 | **classes**         | string   | No        | Optional additional classes to add to the select component. Separate each class with a space. |

@@ -13,7 +13,6 @@
     public const string NhsSummaryListRowActionsTag = "nhs-summary-list-row-actions";
     public const string NhsSummaryListRowTag="nhs-summary-list-row";
     public const string NhsSummaryListTag="nhs-summary-list";
-    public const string NhsSelectTag="nhs-select";
     public const string NhsSkipLinkTag="nhs-skip-link";
     public const string NhsReviewDateTag="nhs-review-date";
     public const string NhsPromoTag = "nhs-promo";
@@ -37,7 +36,6 @@
     public const string NhsDateInputItemTag = "nhs-date-input-item";
     public const string NhsDateInputTag = "nhs-date-input";
     public const string NhsListTag = "nhs-list";
-    public const string NhsTextAreaTag = "nhs-text-area";
     public const string NhsRadiosTag = "nhs-radios";
     public const string NhsRadiosItemTag = "nhs-radios-item";
     public const string NhsHintTag = "nhs-hint";
@@ -45,7 +43,6 @@
     public const string NhsContainerTag = "nhs-width-container";
     public const string NhsMainWrapperTag = "nhs-main-wrapper";
     public const string NhsGridRowTag = "nhs-grid-row";
-    public const string NhsInputTag = "nhs-input";
     public const string NhsBackLinkTag = "nhs-back-link";
     public const string NhsErrorMessageTag = "nhs-error-message";
     public const string NhsActionLinkTag = "nhs-action-link";

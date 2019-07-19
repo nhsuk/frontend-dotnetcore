@@ -26,7 +26,7 @@ Find out more about the input component and when to use it in the [NHS digital s
 ```
 <nhs-form-group nhs-form-group-type="Standard">
   <label nhs-label-type="Standard" for="input-example">National insurance number</label>
-  <nhs-input nhs-input-type="Standard" id="input-example" name="test-name"></nhs-input>
+  <input nhs-input-type="Standard" id="input-example" name="test-name"/>
 </nhs-form-group>
 ```
 ---
@@ -53,7 +53,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 ```
 <nhs-form-group nhs-form-group-type="Standard">
   <label nhs-label-type="Standard" for="input-with-autocomplete-attribute">Postcode</label>
-  <nhs-input nhs-input-type="Standard" id="input-with-autocomplete-attribute" name="postcode" autocomplete="postal-code"></nhs-input>
+  <input nhs-input-type="Standard" id="input-with-autocomplete-attribute" name="postcode" autocomplete="postal-code"/>
 </nhs-form-group>
 ```
 ---
@@ -82,8 +82,9 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 <nhs-form-group nhs-form-group-type="Standard">
   <label nhs-label-type="Standard" for="input-with-hint-text">National insurance number</label>
   <nhs-hint nhs-hint-type="Standard" id="input-with-hint-text-hint">It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.</nhs-hint>
-  <nhs-input nhs-input-type="Standard" id="input-with-hint-text" name="test-name-2" aria-describedby="input-with-hint-text-hint"></nhs-input>
+  <input nhs-input-type="Standard" id="input-with-hint-text" name="test-name-2" aria-describedby="input-with-hint-text-hint"/>
 </nhs-form-group>
+
 ```
 ---
 
@@ -115,7 +116,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
   <label nhs-label-type="Standard" for="input-with-error-message">National insurance number</label>
   <nhs-hint nhs-hint-type="Standard" id="input-with-error-message-hint">It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.</nhs-hint>
   <nhs-error-message id="input-with-error-message-error">Error message goes here</nhs-error-message>
-  <nhs-input nhs-input-type="Standard" is-error-input="true" id="input-with-error-message" name="test-name-3" aria-describedby="input-with-error-message-hint input-with-error-message-error"></nhs-input>
+  <input nhs-input-type="Standard" is-error-input="true" id="input-with-error-message" name="test-name-3" aria-describedby="input-with-error-message-hint input-with-error-message-error"/>
 </nhs-form-group>
 ```
 ---
@@ -144,7 +145,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 <nhs-form-group nhs-form-group-type="Standard">
   <label nhs-label-type="Standard" for="input-width-10">National insurance number</label>
   <nhs-hint nhs-hint-type="Standard" id="input-width-10-hint">It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.</nhs-hint>
-  <nhs-input nhs-input-type="Standard" fixed-width="Ten" id="input-width-10" name="test-width-10" aria-describedby="input-width-10-hint"></nhs-input>
+  <input nhs-input-type="Standard" fixed-width="Ten" id="input-width-10" name="test-width-10" aria-describedby="input-width-10-hint"/>
 </nhs-form-group>
 ```
 
@@ -158,9 +159,9 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 | **fixed-width**            | string   | No        | For fixed width input.|
 | **nhs-form-group**           | Taghelper   | Yes        | the formgroup wrapper for the input component.|
 | **is-error-input**           | boolean   | No        | error input if set to true |
-| **nhs-input**           | Taghelper   | Yes        | representing for the input control.|
+| **input**           | Taghelper   | Yes        | representing for the input control.|
 | **nhs-input-type**           | string   | Yes        | input type e.g Radios, Checkboxes, Date|
-| **nhs-label**           | Taghelper   | Yes        | The label taghelper.|
+| **label**           | Taghelper   | Yes        | The label taghelper.|
 | **nhs-hint**            | Taghelper   | No        | The hint taghelper. |
 | **nhs-error-message**    | Taghelper   | No        | The error message taghelper.|
 | **classes**         | string   | No        | Optional additional classes add to the input taghelper. Separate each class with a space. |
