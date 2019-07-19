@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using NHSUK.FrontEndLibrary.TagHelpers.Constants;
 using NHSUK.FrontEndLibrary.TagHelpers.Tags.ErrorMessage;
@@ -12,7 +13,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
   {
     private readonly NhsErrorMessageTagHelper _tagHelper;
     private const string Text = "national insurance number";
-    private readonly TagHelperContext _tagHelperContext;
+    private TagHelperContext _tagHelperContext;
     private readonly TagHelperOutput _tagHelperOutput;
     public NhsErrorMessageTagHelperTests()
     {
@@ -34,7 +35,21 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
     [Fact]
     public async void ProcessAsync_Should_Set_Content()
     {
+      _tagHelperContext = new TagHelperContext(
+        new TagHelperAttributeList
+        {
+          new TagHelperAttribute("asp-validation-for", new HtmlString("error"))
+        },
+        new Dictionary<object, object>(),
+        Guid.NewGuid().ToString("N"));
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
+      Assert.Equal(string.Empty, _tagHelperOutput.Content.GetContent());
+    }
+
+    [Fact]
+    public async void ProcessAsync_Should_Set_Content_If_No_AspValidation()
+    {
+     await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
       Assert.Equal(Text, _tagHelperOutput.Content.GetContent());
     }
 
@@ -46,16 +61,12 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
       Assert.Equal(expected, _tagHelperOutput.PreContent.GetContent());
     }
 
-    [Fact]
-    public async void ProcessAsync_Should_Set_TagName()
+    [Theory]
+    [InlineData(SpanType.ErrorMessage)]
+    [InlineData((SpanType)(-1))]
+    public async void ProcessAsync_Should_Set_ClassAttribute(SpanType type)
     {
-      await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(HtmlElements.Span, _tagHelperOutput.TagName);
-    }
-
-    [Fact]
-    public async void ProcessAsync_Should_Set_ClassAttribute()
-    {
+      _tagHelper.SpanType = type;
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
       Assert.Equal(CssClasses.NhsUkErrorMessage, _tagHelperOutput.Attributes[HtmlAttributes.ClassAttribute].Value);
     }
