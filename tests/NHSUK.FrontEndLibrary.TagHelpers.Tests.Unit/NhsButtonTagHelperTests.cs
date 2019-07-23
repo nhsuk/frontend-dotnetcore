@@ -32,21 +32,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
             return Task.FromResult(tagHelperContent.SetHtmlContent(Text));
           });
     }
-
-    [Fact]
-    public async void ProcessAsync_Should_Set_Content()
-    {
-      await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(Text, _tagHelperOutput.Content.GetContent());
-    }
-
-    [Fact]
-    public async void ProcessAsync_Should_Set_TagName()
-    {
-      await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(HtmlElements.Button, _tagHelperOutput.TagName);
-    }
-
+    
     [Fact]
     public async void ProcessAsync_Should_Set_Standard_Button_Type_ClassAttribute()
     {
@@ -79,37 +65,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
 
     }
 
-    [Fact]
-    public async void ProcessAsync_Should_Set_TagName_Link_Button_Type()
-    {
-      _tagHelper.ButtonType = ButtonType.Link;
-      await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(HtmlElements.A, _tagHelperOutput.TagName);
-    }
-
-    [Fact]
-    public async void ProcessAsync_Should_Set_Link_Button_Type_ClassAttribute()
-    {
-      _tagHelper.ButtonType = ButtonType.Link;
-      await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(CssClasses.NhsUkButton, _tagHelperOutput.Attributes[HtmlAttributes.ClassAttribute].Value);
-    }
-
-    [Fact]
-    public async void ProcessAsync_Should_Set_Link_Button_Type_DraggableAttribute()
-    {
-      _tagHelper.ButtonType = ButtonType.Link;
-      await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(HtmlAttributes.AttributeValues.False, _tagHelperOutput.Attributes[HtmlAttributes.Draggable].Value);
-    }
-
-    [Fact]
-    public async void ProcessAsync_Should_Set_Link_Button_Type_RoleAttribute()
-    {
-      _tagHelper.ButtonType = ButtonType.Link;
-      await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(HtmlElements.Button, _tagHelperOutput.Attributes[HtmlAttributes.Role].Value);
-    }
+   
     [Fact]
     public async void ProcessAsync_Should_Set_Disabled_Button_Type_AriaDisabledAttribute()
     {

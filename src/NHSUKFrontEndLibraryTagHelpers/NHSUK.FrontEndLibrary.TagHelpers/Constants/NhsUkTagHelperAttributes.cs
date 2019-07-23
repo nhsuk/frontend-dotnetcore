@@ -37,6 +37,7 @@
     public const string InputWidth = "fixed-width";
     public const string OpenInNewWindow = "open-in-new-window";
     public const string ButtonType = "nhs-button-type";
+    public const string AnchorType = "nhs-anchor-type";
     public const string Current = "current-active-page";
     public const string TitleText = "title-text";
     public const string TitleId = "title-id";
