@@ -28,7 +28,7 @@ Ensure the correct `id` value has been added to your main content for the skip l
 ### Taghelper markup
 
 ```
-<nhs-skip-link href="#maincontent">Skip to main content</nhs-skip-link>
+<a nhs-anchor-type="SkipLink" href="#maincontent">Skip to main content</a>
 ```
 
 ### Taghelper attributes

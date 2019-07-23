@@ -21,7 +21,7 @@ Find out more about the button component and when to use it in the [NHS digital 
 #### Taghelper markup
 
 ```
-<nhs-button nhs-button-type="Standard">Save and continue</nhs-button>
+<button nhs-button-type="Standard">Save and continue</button>
 ```
 ---
 
@@ -40,7 +40,7 @@ Find out more about the button component and when to use it in the [NHS digital 
 #### Taghelper markup
 
 ```
-<nhs-button nhs-button-type="Link" href="/">Link button</nhs-button>
+<a nhs-anchor-type="Button" href="/" aria-disabled="True">Link button</a>
 ```
 ---
 
@@ -59,7 +59,7 @@ Find out more about the button component and when to use it in the [NHS digital 
 #### Taghelper markup
 
 ```
-<nhs-button nhs-button-type="Standard" disabled>Disabled button</nhs-button>
+<button nhs-button-type="Standard" disabled>Disabled button</button>
 ```
 
 ---
@@ -79,7 +79,7 @@ Find out more about the button component and when to use it in the [NHS digital 
 #### Taghelper markup
 
 ```
-<nhs-button nhs-button-type="Secondary">Find my location</nhs-button>
+<button nhs-button-type="Secondary">Find my location</button>
 ```
 
 ---
@@ -99,7 +99,7 @@ Find out more about the button component and when to use it in the [NHS digital 
 #### Taghelper markup
 
 ```
-<nhs-button nhs-button-type="Reverse">Save and continue</nhs-button>
+<button nhs-button-type="Reverse">Save and continue</button>
 ```
 
 ### Taghelper attributes
