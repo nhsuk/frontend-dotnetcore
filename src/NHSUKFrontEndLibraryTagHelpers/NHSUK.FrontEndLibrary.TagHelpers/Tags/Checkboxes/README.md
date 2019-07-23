@@ -306,18 +306,18 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 <nhs-form-group nhs-form-group-type="Error"> 
   <nhs-fieldset aria-describedby="waste-error">
     <nhs-fieldset-legend nhs-legend-size="Standard">Which types of waste do you transport regularly?</nhs-fieldset-legend>
-    <nhs-error-message id="waste-error">Please select an option</nhs-error-message>
+    <span nhs-span-type="ErrorMessage" id="waste-error">Please select an option</span>
     <nhs-checkboxes>
       <nhs-checkboxes-item>
-        <input nhs-input-type="Checkboxes" id="waste-1" name="waste" value="animal"/>
+        <input nhs-input-type="Checkboxes" id="waste-1" name="waste" value="animal" />
         <label nhs-label-type="Checkboxes" for="waste-1">Waste from animal carcasses</label>
       </nhs-checkboxes-item>
       <nhs-checkboxes-item>
-        <input nhs-input-type="Checkboxes" id="waste-2" name="waste" value="mines"/>
+        <input nhs-input-type="Checkboxes" id="waste-2" name="waste" value="mines" />
         <label nhs-label-type="Checkboxes" for="waste-2">Waste from mines or quarries</label>
       </nhs-checkboxes-item>
       <nhs-checkboxes-item>
-        <input nhs-input-type="Checkboxes" id="waste-3" name="waste" value="farm"/>
+        <input nhs-input-type="Checkboxes" id="waste-3" name="waste" value="farm" />
         <label nhs-label-type="Checkboxes" for="waste-3">Farm or agricultural waste</label>
       </nhs-checkboxes-item>
     </nhs-checkboxes>
@@ -336,7 +336,7 @@ Find out more about the checkboxes component and when to use it in the [NHS digi
 | **input**                | taghelper   | Yes       | Taghelper representing a input.|
 | **label**                | taghelper   | Yes       | Taghelper representing a label.|
 | **nhs-hint**            | Taghelper   | No        | Hint taghelper|
-| **nhs-errorMessage**    | Taghelper   | No        |Error message taghelper. |
+| **span nhs-span-type ="ErrorMessage"**    | Taghelper   | No        |Error message taghelper. |
 | **classes**             | string   | No        | Optional additional classes to add to the breadcrumbs container. Separate each class with a space. |
 
 ---

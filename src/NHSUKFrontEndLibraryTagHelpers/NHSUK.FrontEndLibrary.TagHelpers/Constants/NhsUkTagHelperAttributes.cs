@@ -29,6 +29,7 @@
     public const string IsErrorInput="is-error-input";
     public const string TextAreaType = "nhs-textarea-type";
     public const string HintType = "nhs-hint-type";
+    public const string SpanType = "nhs-span-type";
     public const string ContainerWidth = "container-width";
     public const string RadiosType = "nhs-radios-type";
     public const string LabelType = "nhs-label-type";

@@ -115,9 +115,10 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 <nhs-form-group nhs-form-group-type="Error">
   <label nhs-label-type="Standard" for="input-with-error-message">National insurance number</label>
   <nhs-hint nhs-hint-type="Standard" id="input-with-error-message-hint">It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.</nhs-hint>
-  <nhs-error-message id="input-with-error-message-error">Error message goes here</nhs-error-message>
-  <input nhs-input-type="Standard" is-error-input="true" id="input-with-error-message" name="test-name-3" aria-describedby="input-with-error-message-hint input-with-error-message-error"/>
+  <span nhs-span-type="ErrorMessage" id="input-with-error-message-error">Error message goes here</span>
+  <input nhs-input-type="Standard" is-error-input="true" id="input-with-error-message" name="test-name-3" aria-describedby="input-with-error-message-hint input-with-error-message-error" />
 </nhs-form-group>
+
 ```
 ---
 
@@ -163,7 +164,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 | **nhs-input-type**           | string   | Yes        | input type e.g Radios, Checkboxes, Date|
 | **label**           | Taghelper   | Yes        | The label taghelper.|
 | **nhs-hint**            | Taghelper   | No        | The hint taghelper. |
-| **nhs-error-message**    | Taghelper   | No        | The error message taghelper.|
+| **span nhs-span-type="ErrorMessage"**    | Taghelper   | No        | The error message taghelper.|
 | **classes**         | string   | No        | Optional additional classes add to the input taghelper. Separate each class with a space. |
 | **autocomplete**    | string   | No        | Attribute to [identify input purpose](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html), for instance "postal-code" or "username". See [Autofilling form controls: the autocomplete attribute](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill) for the full list of attributes that can be used. |
 

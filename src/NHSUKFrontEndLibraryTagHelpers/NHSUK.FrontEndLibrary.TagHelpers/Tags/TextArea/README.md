@@ -88,7 +88,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 ```
 <nhs-form-group nhs-form-group-type="Error">
   <label nhs-label-type="Standard" for="no-ni-reason">Why can't you provide a National Insurance number?</label>
-  <nhs-error-message id="no-ni-reason-error"> You must provide an explanation</nhs-error-message>
+  <span nhs-span-type="ErrorMessage" id="no-ni-reason-error">You must provide an explanation</span>
   <textarea nhs-textarea-type="Error" id="no-ni-reason" name="no-ni-reason" rows="5" aria-describedby="no-ni-reason-error"></textarea>
 </nhs-form-group>
 ```
@@ -102,7 +102,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 | **rows**            | string   | No        | Optional number of textarea rows. |
 | **label**           | Taghelper   | Yes        | The label taghelper.|
 | **nhs-hint**            | Taghelper   | No        | The hint taghelper. |
-| **nhs-errorMessage**    | Taghelper   | No        |The error message taghelper. |
+| **span nhs-span-type="ErrorMessage"**    | Taghelper   | No        |The error message taghelper. |
 | **nhs-form-group**           | Taghelper   | Yes        | The formgroup taghelper wrapper for the radios component.|
 | **classes**         | string   | No        | Optional additional classes add to the input taghelper. Separate each class with a space. |
 | **autocomplete**    | string   | No        | Attribute to [identify input purpose](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html), for instance "postal-code" or "username". See [Autofilling form controls: the autocomplete attribute](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill) for the full list of attributes that can be used. |
