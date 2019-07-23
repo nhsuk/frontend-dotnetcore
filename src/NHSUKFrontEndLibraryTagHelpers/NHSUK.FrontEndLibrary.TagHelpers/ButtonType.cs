@@ -4,7 +4,6 @@
   {
     Standard,
     Secondary,
-    Reverse,
-    Link
+    Reverse
   }
 }
