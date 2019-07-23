@@ -403,14 +403,14 @@ Find out more about the radios component and when to use it in the [NHS digital 
   <nhs-fieldset aria-describedby="example-hint example-error" data-attribute="value" data-second-attribute="second-value">
     <nhs-fieldset-legend nhs-legend-size="Standard">Have you changed your name?</nhs-fieldset-legend>
     <nhs-hint nhs-hint-type="Standard" id="example-hint">This includes changing your last name or spelling your name differently.</nhs-hint>
-    <nhs-error-message id="example-error">Please select an option</nhs-error-message>
+    <span nhs-span-type="ErrorMessage" id="example-error">Please select an option</span>
     <nhs-radios nhs-radios-type="Standard">
       <nhs-radios-item>
-        <input nhs-input-type="Radios" id="example-1" name="example" value="yes"/>
+        <input nhs-input-type="Radios" id="example-1" name="example" value="yes" />
         <label nhs-label-type="Radios" for="example-1">Yes</label>
       </nhs-radios-item>
       <nhs-radios-item>
-        <input nhs-input-type="Radios" id="example-2" name="example" value="no" checked/>
+        <input nhs-input-type="Radios" id="example-2" name="example" value="no" checked />
         <label nhs-label-type="Radios" for="example-2">No</label>
       </nhs-radios-item>
     </nhs-radios>
@@ -429,7 +429,7 @@ Find out more about the radios component and when to use it in the [NHS digital 
 | **nhs-radios-item**                | Taghelper   | Yes       | Taghelper representing a radios item.|
 | **nhs-radios-type**                | string   | Yes       | radios type e.g Standard or Inline.|
 | **nhs-radios-divider**                | Taghelper   | Yes       | Optional divider taghelper to separate radio items, for example the text "or"..|
-| **nhs-errorMessage**    | Taghelper   | No        | The error message taghelper.|
+| **span nhs-span-type="ErrorMessage"**    | Taghelper   | No        | The error message taghelper.|
 | **classes**         | string   | No        | Optional additional classes to add to the radios container. Separate each class with a space. |
 
 

@@ -232,34 +232,29 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
       What is your date of birth?
     </nhs-fieldset-legend>
     <nhs-hint nhs-hint-type="Standard" id="dob-errors-hint">For example, 31 3 1980</nhs-hint>
-    <nhs-error-message id="dob-errors-error">Error message goes here</nhs-error-message>
+    <span nhs-span-type="ErrorMessage" id="dob-errors-error">Error message goes here</span>
     <nhs-date-input id="dob-errors">
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-errors-day">Day</label>
-          <input nhs-input-type="Date" fixed-width="Two" is-error-input="true" id="dob-errors-day" name="day"/>
+          <input nhs-input-type="Date" fixed-width="Two" is-error-input="true" id="dob-errors-day" name="day" />
         </nhs-form-group>
       </nhs-date-input-item>
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-errors-month">Month</label>
-          <input nhs-input-type="Date" fixed-width="Two" is-error-input="true" id="dob-errors-month" name="month"/>
+          <input nhs-input-type="Date" fixed-width="Two" is-error-input="true" id="dob-errors-month" name="month" />
         </nhs-form-group>
       </nhs-date-input-item>
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-errors-year">Year</label>
-          <input nhs-input-type="Date" fixed-width="Four" is-error-input="true" id="dob-errors-year" name="year"/>
+          <input nhs-input-type="Date" fixed-width="Four" is-error-input="true" id="dob-errors-year" name="year" />
         </nhs-form-group>
       </nhs-date-input-item>
     </nhs-date-input>
   </nhs-fieldset>
 </nhs-form-group>
-
-
-
-
-
 ```
 
 ---
@@ -321,30 +316,29 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
       What is your date of birth?
     </nhs-fieldset-legend>
     <nhs-hint nhs-hint-type="Standard" id="dob-day-error-hint">For example, 31 3 1980</nhs-hint>
-    <nhs-error-message id="dob-day-error-error">Error message goes here</nhs-error-message>
+    <span nhs-span-type="ErrorMessage" id="dob-day-error-error">Error message goes here</span>
     <nhs-date-input id="dob-day-error">
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-day-error-day">Day</label>
-          <input nhs-input-type="Date" fixed-width="Two" is-error-input="true" id="dob-day-error-day" name="dob-day-error-day"/>
+          <input nhs-input-type="Date" fixed-width="Two" is-error-input="true" id="dob-day-error-day" name="dob-day-error-day" />
         </nhs-form-group>
       </nhs-date-input-item>
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-errors-month">Month</label>
-          <input nhs-input-type="Date" fixed-width="Two" id="dob-day-error-month" name="dob-day-error-month"/>
+          <input nhs-input-type="Date" fixed-width="Two" id="dob-day-error-month" name="dob-day-error-month" />
         </nhs-form-group>
       </nhs-date-input-item>
       <nhs-date-input-item>
         <nhs-form-group nhs-form-group-type="Standard">
           <label nhs-label-type="Date" for="dob-errors-year">Year</label>
-          <input nhs-input-type="Date" fixed-width="Four" id="dob-day-error-year" name="dob-day-error-year"/>
+          <input nhs-input-type="Date" fixed-width="Four" id="dob-day-error-year" name="dob-day-error-year" />
         </nhs-form-group>
       </nhs-date-input-item>
     </nhs-date-input>
   </nhs-fieldset>
 </nhs-form-group>
-
 
 ```
 
@@ -360,7 +354,7 @@ See [Autofilling form controls: the autocomplete attribute](https://html.spec.wh
 | **input**           | Taghelper   | Yes        | representing for the input control.|
 | **label**           | Taghelper   | Yes        | The label taghelper.|
 | **nhs-hint**            | Taghelper   | No        | The hint taghelper. |
-| **nhs-error-message**    | Taghelper   | No        | The error message taghelper.|
+| **span nhs-span-type="ErrorMessage"**    | Taghelper   | No        | The error message taghelper.|
 | **nhs-form-group**           | Taghelper   | Yes        | The formgroup wrapper taghelper.|
 | **nhs-fieldset**        | Taghelper   | No        | taghelper for the fieldset component. |
 | **autocomplete**          | string   | No        | Attribute to [identify input purpose](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html), for instance "postal-code" or "username". See [Autofilling form controls: the autocomplete attribute](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill) for the full list of attributes that can be used. |
