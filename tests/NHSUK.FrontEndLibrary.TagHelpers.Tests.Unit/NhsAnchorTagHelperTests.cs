@@ -34,21 +34,21 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
     }
 
     [Theory]
-    [InlineData(AnchorType.Button)]
+    [InlineData(AnchorType.SkipLink)]
     [InlineData((AnchorType)(-1))]
     public async void ProcessAsync_Should_Set_Default_Anchor_Type_ClassAttribute(AnchorType type)
     {
       _tagHelper.AnchorType = type;
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(CssClasses.NhsUkButton, _tagHelperOutput.Attributes[HtmlAttributes.ClassAttribute].Value);
+      Assert.Equal(CssClasses.NhsUkSkipLink, _tagHelperOutput.Attributes[HtmlAttributes.ClassAttribute].Value);
     }
 
     [Fact]
-    public async void ProcessAsync_Should_Set_SkipLink_ClassAttribute()
+    public async void ProcessAsync_Should_Set_Button_Type_ClassAttribute()
     {
-      _tagHelper.AnchorType = AnchorType.SkipLink;
+      _tagHelper.AnchorType = AnchorType.Button;
       await _tagHelper.ProcessAsync(_tagHelperContext, _tagHelperOutput);
-      Assert.Equal(CssClasses.NhsUkSkipLink, _tagHelperOutput.Attributes[HtmlAttributes.ClassAttribute].Value);
+      Assert.Equal(CssClasses.NhsUkButton, _tagHelperOutput.Attributes[HtmlAttributes.ClassAttribute].Value);
     }
 
 
