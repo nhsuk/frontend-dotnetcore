@@ -19,7 +19,7 @@ Find out more about the error message component and when to use it in the [NHS d
 ### Taghelper markup
 
 ```
-<nhs-error-message>Error message about full name goes here</nhs-error-message>
+<span nhs-span-type="ErrorMessage">Error message about full name goes here</span>
 ```
 ### Taghelper attributes
 
