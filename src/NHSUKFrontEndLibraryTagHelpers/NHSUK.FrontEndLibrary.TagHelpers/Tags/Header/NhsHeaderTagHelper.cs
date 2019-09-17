@@ -18,6 +18,9 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Header
     [HtmlAttributeName(NhsUkTagHelperAttributes.ShowSearch)]
     public bool ShowSearch { get; set; }
 
+    [HtmlAttributeName(NhsUkTagHelperAttributes.ShowNav)]
+    public bool ShowNav { get; set; }
+
     [HtmlAttributeName(NhsUkTagHelperAttributes.LogoHref)]
     public string LogoHref { get; set; } = "/";
 
@@ -33,12 +36,10 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Header
     private TagBuilder _headerContent;
     private string _contentSearchElement;
     private string _contentMenuElement;
-    private bool _showNav;
 
     public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
     {
       await base.ProcessAsync(context, output);
-      _showNav = (await output.GetChildContentAsync()).GetContent().Contains(TagHelperNames.NhsHeaderNavItemTag);
       output.TagName = HtmlElements.Header;
       SetAttribute(output, HtmlAttributes.Role, HtmlAttributes.AttributeValues.Banner);
 
@@ -56,7 +57,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Header
         case HeaderType.Transactional:
           ClassesToPrepend.Add(CssClasses.NhsUkHeaderTransactional);
 
-          if (!_showNav && !ShowSearch)
+          if (!ShowNav && !ShowSearch)
           {
             if (!string.IsNullOrWhiteSpace(ServiceName))
             {
@@ -85,13 +86,13 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tags.Header
       var headerLogo = BuildHeaderLogo();
       if (HeaderType == HeaderType.Standard)
       {
-        if (_showNav || ShowSearch)
+        if (ShowNav || ShowSearch)
         {
           _headerContent = new TagBuilder(HtmlElements.Div);
           _headerContent.AddCssClass(CssClasses.NhsUkHeaderContent);
           _headerContent.Attributes.Add(HtmlAttributes.IdAttribute, HtmlAttributes.AttributeValues.ContentHeader);
 
-          if (_showNav)
+          if (ShowNav)
           {
             _contentMenuElement = BuildHeaderContentMenuElement(ShowSearch ? CssClasses.NhsUkHeaderMenu : CssClasses.NhsUkHeaderMenuOnly);
           }

@@ -193,6 +193,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
     {
       _tagHelper.HeaderType = HeaderType.Standard;
       _tagHelper.ShowSearch = false;
+      _tagHelper.ShowNav = true;
       _tagHelperContext = new TagHelperContext(
         new TagHelperAttributeList(),
         new Dictionary<object, object>(),
@@ -223,6 +224,7 @@ namespace NHSUK.FrontEndLibrary.TagHelpers.Tests.Unit
      var ariaLabel = "the NHS";
       _tagHelper.HeaderType = HeaderType.Standard;
       _tagHelper.ShowSearch = true;
+      _tagHelper.ShowNav = true;
       _tagHelper.LogoHref = href;
       _tagHelper.LogoAriaLabel = ariaLabel;
       _tagHelperContext = new TagHelperContext(

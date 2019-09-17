@@ -51,6 +51,7 @@
     public const string HeaderType = "nhs-header-type";
     public const string ServiceHref = "service-href";
     public const string ShowSearch = "show-search";
+    public const string ShowNav = "show-nav";
     public const string LogoHref = "logo-href";
     public const string LogoAriaLabel = "logo-aria-label";
     public const string ServiceName = "service-name";
