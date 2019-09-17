@@ -129,7 +129,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 #### Taghelper markup
 
 ```
-<nhs-header nhs-header-type="Standard" logo-href="https://www.nhs.uk/" show-search="true">
+<nhs-header nhs-header-type="Standard" logo-href="https://www.nhs.uk/" show-search="true" show-nav="true">
   <nhs-header-navigation>
     <nhs-header-nav-item href="https://www.nhs.uk/conditions">Health A-Z</nhs-header-nav-item>
     <nhs-header-nav-item href="https://www.nhs.uk/live-well/">Live Well</nhs-header-nav-item>
@@ -138,6 +138,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
     <nhs-header-nav-item href="https://www.nhs.uk/service-search">Services near you</nhs-header-nav-item>
   </nhs-header-navigation>
 </nhs-header>
+
 ```
 
 ---
@@ -232,7 +233,7 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 #### Taghelper markup
 ```
-<nhs-header nhs-header-type="Standard">
+<nhs-header nhs-header-type="Standard" show-nav="true">
   <nhs-header-navigation>
     <nhs-header-nav-item href="https://www.nhs.uk/conditions">Health A-Z</nhs-header-nav-item>
     <nhs-header-nav-item href="https://www.nhs.uk/live-well/">Live Well</nhs-header-nav-item>
